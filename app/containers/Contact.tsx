@@ -13,7 +13,7 @@ export default function Contact() {
           </div>
           <div>
             <h3 className="font-semibold text-lg mb-2 text-white">Visit Us</h3>
-            <p className="text-zinc-400">Carrer de Colón, 1<br />46004 Valencia, Spain</p>
+            <p className="text-zinc-400">Carrer Apostol Santiago, 36<br />12560 Benicassim, Community of Valencia, Spain</p>
           </div>
           <div>
             <h3 className="font-semibold text-lg mb-2 text-white">Call Us</h3>
