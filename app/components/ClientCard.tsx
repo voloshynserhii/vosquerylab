@@ -5,7 +5,7 @@ export default function ClientCard({ client }: { client: any }) {
     return (
         <Link
             key={client.id}
-            href={`/clients/${client.id}`}
+            href={client.link}
             className="group flex flex-col bg-zinc-50 dark:bg-zinc-900 rounded-2xl overflow-hidden border border-zinc-200 dark:border-zinc-800 hover:shadow-xl transition-all duration-300"
         >
             <div className="relative h-64 w-full bg-zinc-200 dark:bg-zinc-800 overflow-hidden">
@@ -14,7 +14,7 @@ export default function ClientCard({ client }: { client: any }) {
                     alt={client.name}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
-                    unoptimized
+                    loading="lazy"
                 />
             </div>
             <div className="p-8 flex flex-col flex-grow">
