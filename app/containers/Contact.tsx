@@ -1,3 +1,5 @@
+import ContactForm from "./ContactForm";
+
 export default function Contact() {
   return (
     <section id="contact" className="py-24 px-6 bg-black text-white">
@@ -6,6 +8,11 @@ export default function Contact() {
         <p className="text-zinc-400 mb-12 text-lg max-w-2xl mx-auto">
           Let's discuss your project and see how we can help you achieve your digital goals.
         </p>
+      </div>
+
+      <ContactForm />
+      
+      <div className="max-w-7xl mx-auto mt-12">
         <div className="grid md:grid-cols-3 gap-8 text-left bg-zinc-900 p-8 rounded-2xl border border-zinc-800">
           <div>
             <h3 className="font-semibold text-lg mb-2 text-white">Email Us</h3>
