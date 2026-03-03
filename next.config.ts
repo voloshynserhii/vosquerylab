@@ -13,6 +13,10 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
+        hostname: "pinehotel.vercel.app",
+      },
+      {
+        protocol: "https",
         hostname: "yarify.tech",
       },
       {

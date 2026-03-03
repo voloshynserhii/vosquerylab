@@ -7,7 +7,7 @@ const clients = [
     category: "Web Application",
     description: "A comprehensive fitness platform offering personalized workout plans and nutrition tracking. Built with modern web technologies for a seamless user experience.",
     image: "https://navifit.eu/images/app-preview.png",
-    tags: ["Next.js", "React Native", "Fitness", "PWA"],
+    tags: ["Next.js", "React Native", "Fitness", "Health", "PWA"],
     link: "https://navifit.eu",
   },
   {
@@ -18,6 +18,15 @@ const clients = [
     image: "https://pani-yulya-shop.vercel.app/_next/image?url=%2Fimages%2Fhero_image.jpeg&w=1200&q=75",
     tags: ["E-commerce", "Next.js", "UI/UX", "Kids", "Music"],
     link: "https://pani-yulya.kids",
+  },
+  {
+    id: "pine-hotel",
+    name: "The Pine Hotel",
+    category: "Hospitality",
+    description: "A luxury hotel experience with modern amenities and personalized service. Features a stunning location and exceptional guest satisfaction.",
+    image: "https://pinehotel.vercel.app/_next/image?url=%2Fimages%2Fhero2.jpg&w=3840&q=75",
+    tags: ["Next.js", "React", "Hotel", "Hospitality", "Luxury", "Travel", "Tourism"],
+    link: "https://pinehotel.vercel.app",
   },
   {
     id: "beni-fit",
