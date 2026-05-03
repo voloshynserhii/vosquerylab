@@ -19,7 +19,7 @@ const clients = [
     tags: ["E-commerce", "Next.js", "UI/UX", "Kids", "Music"],
     link: "https://pani-yulya.kids",
   },
-  {
+/*   {
     id: "pine-hotel",
     name: "The Pine Hotel",
     category: "Hospitality",
@@ -27,8 +27,8 @@ const clients = [
     image: "https://pinehotel.vercel.app/_next/image?url=%2Fimages%2Fhero2.jpg&w=3840&q=75",
     tags: ["Next.js", "React", "Hotel", "Hospitality", "Luxury", "Travel", "Tourism"],
     link: "https://thepines-hotel.com",
-  },
-  {
+  }, */
+/*   {
     id: "castellon-cycling-tours",
     name: "Castellon Cycling Co.",
     category: "Fitness & Health",
@@ -36,7 +36,7 @@ const clients = [
     image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=2070",
     tags: ["Next.js", "React", "Cycling", "Travel", "Tourism"],
     link: "https://tours-ecru-seven.vercel.app/",
-  },
+  }, */
   {
     id: "beni-fit",
     name: "Beni-Fit",
