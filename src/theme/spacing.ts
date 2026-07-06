@@ -1,0 +1,31 @@
+export const spacing = {
+  4: "1",
+  8: "2",
+  12: "3",
+  16: "4",
+  20: "5",
+  24: "6",
+  32: "8",
+  40: "10",
+  48: "12",
+  64: "16",
+  80: "20",
+  96: "24",
+  120: "30",
+} as const;
+
+export const space = {
+  sectionY: "py-24",
+  sectionYCompact: "py-16",
+  containerX: "px-6",
+  container: "mx-auto max-w-7xl px-6",
+  heroContainer: "mx-auto max-w-[1440px] px-6",
+  card: "p-8",
+  cardCompact: "p-6",
+  stack16: "gap-4",
+  stack20: "gap-5",
+  stack24: "gap-6",
+  stack32: "gap-8",
+  stack40: "gap-10",
+  stack48: "gap-12",
+} as const;

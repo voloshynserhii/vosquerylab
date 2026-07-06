@@ -2,6 +2,16 @@
 
 import { useRef, useState } from 'react';
 import { sendEmail } from '@/actions/send-email';
+import { cn, colors, radius, transitions, typography } from '../../src/theme';
+
+const fieldClass = cn(
+  "w-full border border-white/10 bg-white/6 px-4 py-3 text-white outline-none placeholder:text-slate-500 focus:border-violet-300/60 focus:bg-white/9",
+  typography.bodySmall,
+  radius.lg,
+  transitions.base,
+);
+
+const labelClass = cn("mb-2 block", typography.caption, colors.textMutedDark);
 
 export default function ContactForm() {
   const formRef = useRef<HTMLFormElement>(null);
@@ -20,64 +30,68 @@ export default function ContactForm() {
   }
 
   return (
-    <form ref={formRef} action={handleSubmit} className="mt-12 max-w-2xl mx-auto space-y-6 text-left">
-      <div className="grid md:grid-cols-2 gap-6">
+    <form ref={formRef} action={handleSubmit} className="mx-auto mt-12 max-w-2xl space-y-6 text-left">
+      <div className="grid gap-6 md:grid-cols-2">
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-zinc-400 mb-2">Name</label>
+          <label htmlFor="name" className={labelClass}>Name</label>
           <input
             type="text"
             id="name"
             name="name"
             required
-            className="w-full px-4 py-3 rounded-lg bg-zinc-900 border border-zinc-800 text-white focus:outline-none focus:border-white transition-colors"
+            className={fieldClass}
             placeholder="John Doe"
           />
         </div>
         <div>
-          <label htmlFor="phone" className="block text-sm font-medium text-zinc-400 mb-2">Phone</label>
+          <label htmlFor="phone" className={labelClass}>Phone</label>
           <input
             type="tel"
             id="phone"
             name="phone"
-            className="w-full px-4 py-3 rounded-lg bg-zinc-900 border border-zinc-800 text-white focus:outline-none focus:border-white transition-colors"
+            className={fieldClass}
             placeholder="+1 (555) 000-0000"
           />
         </div>
       </div>
       <div>
-        <label htmlFor="email" className="block text-sm font-medium text-zinc-400 mb-2">Email</label>
+        <label htmlFor="email" className={labelClass}>Email</label>
         <input
           type="email"
           id="email"
           name="email"
           required
-          className="w-full px-4 py-3 rounded-lg bg-zinc-900 border border-zinc-800 text-white focus:outline-none focus:border-white transition-colors"
+          className={fieldClass}
           placeholder="john@example.com"
         />
       </div>
       <div>
-        <label htmlFor="message" className="block text-sm font-medium text-zinc-400 mb-2">Message</label>
+        <label htmlFor="message" className={labelClass}>Message</label>
         <textarea
           id="message"
           name="message"
           required
           rows={4}
-          className="w-full px-4 py-3 rounded-lg bg-zinc-900 border border-zinc-800 text-white focus:outline-none focus:border-white transition-colors resize-none"
+          className={cn(fieldClass, "resize-none")}
           placeholder="Tell us about your project..."
         />
       </div>
       <button
         type="submit"
         disabled={status === 'submitting'}
-        className="w-full bg-white text-black font-bold py-4 rounded-lg hover:bg-zinc-200 transition-colors disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
+        className={cn(
+          "w-full cursor-pointer bg-white py-4 font-semibold text-slate-950 hover:bg-violet-100 disabled:cursor-not-allowed disabled:opacity-50",
+          radius.lg,
+          transitions.base,
+        )}
       >
         {status === 'submitting' ? 'Sending...' : 'Send Inquiry'}
       </button>
       {status === 'success' && (
-        <p className="text-green-400 text-center">Message sent successfully!</p>
+        <p className={cn("text-center", colors.success)}>Message sent successfully!</p>
       )}
       {status === 'error' && (
-        <p className="text-red-400 text-center">Failed to send message. Please try again.</p>
+        <p className={cn("text-center", colors.danger)}>Failed to send message. Please try again.</p>
       )}
     </form>
   );

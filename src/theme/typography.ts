@@ -1,0 +1,15 @@
+export const typography = {
+  displayXL: "text-5xl font-semibold leading-[1.02] tracking-normal md:text-6xl xl:text-7xl",
+  displayL: "text-4xl font-semibold leading-[1.06] tracking-normal md:text-5xl",
+  displayM: "text-3xl font-semibold leading-[1.1] tracking-normal md:text-4xl",
+  headlineXL: "text-3xl font-semibold leading-[1.12] tracking-normal md:text-5xl",
+  headlineL: "text-2xl font-semibold leading-[1.18] tracking-normal md:text-4xl",
+  headlineM: "text-2xl font-semibold leading-[1.2] tracking-normal",
+  title: "text-xl font-semibold leading-[1.25] tracking-normal md:text-2xl",
+  titleSmall: "text-base font-semibold leading-[1.35] tracking-normal",
+  bodyLarge: "text-base leading-8 tracking-normal md:text-lg",
+  body: "text-base leading-7 tracking-normal",
+  bodySmall: "text-sm leading-6 tracking-normal",
+  caption: "text-[13px] font-medium leading-5 tracking-normal",
+  label: "text-xs font-semibold uppercase leading-5 tracking-[0.12em]",
+} as const;

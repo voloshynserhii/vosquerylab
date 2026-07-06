@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import ClientCard from "@/components/ClientCard";
+import Container from "@/components/ui/Container";
+import Reveal from "@/components/ui/Reveal";
+import SectionHeader from "@/components/ui/SectionHeader";
+import TechChip from "@/components/ui/TechChip";
+import { OutlineButton } from "@/components/ui/Buttons";
+import { cn, colors, gradients, radius, shadows, space, transitions, typography } from "../../src/theme";
 
 const clients = [
   {
@@ -64,32 +70,27 @@ const mobileApps = [
 
 function MobileAppPreviewCard({ app }: { app: (typeof mobileApps)[number] }) {
   return (
-    <article className="group flex flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 transition-all duration-300 hover:shadow-xl dark:border-zinc-800 dark:bg-zinc-900">
-      <div className="relative h-[560px] overflow-hidden bg-zinc-100 dark:bg-zinc-950">
+    <article className={cn("group flex min-h-full flex-col overflow-hidden border border-white/12 bg-white/6 backdrop-blur-md", radius.xl, shadows.darkCard, transitions.hoverLift)}>
+      <div className="relative h-56 overflow-hidden bg-white/8">
         <Image
           src={app.image}
           alt={`${app.name} app preview`}
           fill
-          className="object-contain p-4 transition-transform duration-500 group-hover:scale-[1.02]"
+          className={cn("object-cover", transitions.scaleHover)}
           sizes="(min-width: 1024px) 50vw, 100vw"
         />
       </div>
-      <div className="p-8">
-        <p className="mb-2 text-sm font-medium text-zinc-500 dark:text-zinc-400">{app.category}</p>
-        <h3 className="mb-3 text-2xl font-bold text-black dark:text-white">
-          <Link href={app.link} className="hover:underline">
+      <div className="flex flex-grow flex-col p-5">
+        <p className={cn("mb-2", typography.caption, colors.primaryLight)}>{app.category}</p>
+        <h3 className={cn("mb-3", typography.titleSmall, colors.textPrimaryDark)}>
+          <Link href={app.link}>
             {app.name}
           </Link>
         </h3>
-        <p className="mb-6 leading-relaxed text-zinc-600 dark:text-zinc-400">{app.description}</p>
+        <p className={cn("mb-5 line-clamp-3 flex-grow", typography.bodySmall, colors.textSecondaryDark)}>{app.description}</p>
         <div className="flex flex-wrap gap-2">
           {app.tags.map((tag) => (
-            <span
-              key={tag}
-              className="rounded-full bg-zinc-200 px-2.5 py-0.5 text-xs font-medium text-zinc-800 dark:bg-zinc-800 dark:text-zinc-200"
-            >
-              {tag}
-            </span>
+            <TechChip key={tag} dark>{tag}</TechChip>
           ))}
         </div>
       </div>
@@ -99,18 +100,50 @@ function MobileAppPreviewCard({ app }: { app: (typeof mobileApps)[number] }) {
 
 export default function Clients() {
   return (
-    <section id="clients" className="py-24 px-6">
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-black dark:text-white mb-12 text-center">AI Products and Client Work</h2>
-        <div className="mb-14 grid gap-8 md:grid-cols-2">
+    <section id="clients" className={cn("relative overflow-hidden", gradients.darkSection, space.sectionY)}>
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-80 bg-[radial-gradient(circle_at_80%_60%,rgba(168,85,247,0.28),transparent_34%)]" />
+      <Container className="relative">
+        <Reveal>
+          <SectionHeader
+            eyebrow="Featured Work"
+            title="AI Products and Client Work"
+            dark
+            action={<OutlineButton href="/case-studies" className="hidden md:inline-flex">View All Projects</OutlineButton>}
+          />
+        </Reveal>
+        <div className={cn("mb-8 grid md:grid-cols-2 lg:grid-cols-4", space.stack24)}>
           {mobileApps.map((app) => (
-            <MobileAppPreviewCard key={app.id} app={app} />
+            <Reveal key={app.id}>
+              <MobileAppPreviewCard app={app} />
+            </Reveal>
           ))}
         </div>
-        <div className="grid md:grid-cols-2 gap-8">
-          {clients.map((client) => <ClientCard key={client.id} client={client} />)}
+        <div className={cn("grid md:grid-cols-2 lg:grid-cols-4", space.stack24)}>
+          {clients.map((client) => (
+            <Reveal key={client.id}>
+              <ClientCard client={client} />
+            </Reveal>
+          ))}
         </div>
-      </div>
+        <Reveal>
+          <div className={cn("mt-12 flex flex-col gap-6 border border-white/10 p-8 md:flex-row md:items-center md:justify-between", gradients.cta, radius.xl, shadows.darkCard)}>
+            <div className="max-w-xl">
+              <h3 className={cn(typography.headlineM, colors.textPrimaryDark)}>
+                Ready to build your next AI-powered product?
+              </h3>
+              <p className={cn("mt-3", typography.bodySmall, colors.textSecondaryDark)}>
+                Let&apos;s turn your idea into a production-ready AI solution that drives real business value.
+              </p>
+            </div>
+            <div className={cn("flex flex-col sm:flex-row", space.stack16)}>
+              <OutlineButton href="#contact" className="bg-violet-500 text-white hover:bg-violet-400">
+                Discuss Your Project
+              </OutlineButton>
+              <OutlineButton href="#contact">Contact Us</OutlineButton>
+            </div>
+          </div>
+        </Reveal>
+      </Container>
     </section>
   );
 }

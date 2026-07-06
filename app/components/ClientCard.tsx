@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
+import TechChip from "@/components/ui/TechChip";
+import { cn, colors, radius, shadows, transitions, typography } from "../../src/theme";
 
 interface ClientCardData {
     id: string;
@@ -13,37 +15,30 @@ interface ClientCardData {
 
 export default function ClientCard({ client }: { client: ClientCardData }) {
     return (
-        <article className="group flex flex-col bg-zinc-50 dark:bg-zinc-900 rounded-2xl overflow-hidden border border-zinc-200 dark:border-zinc-800 hover:shadow-xl transition-all duration-300">
-            <div className="relative h-64 w-full bg-zinc-200 dark:bg-zinc-800 overflow-hidden">
+        <article className={cn("group flex min-h-full flex-col overflow-hidden border border-white/12 bg-white/6 backdrop-blur-md", radius.xl, shadows.darkCard, transitions.hoverLift)}>
+            <div className="relative h-56 w-full overflow-hidden bg-white/8">
                 <Image
                     src={client.image}
                     alt={`${client.name} project preview`}
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    className={cn("object-cover", transitions.scaleHover)}
                     loading="lazy"
                 />
             </div>
-            <div className="p-8 flex flex-col flex-grow">
-                <div className="flex flex-wrap gap-2 mb-4">
-                    {client.tags.map((tag: string) => (
-                        <span
-                            key={tag}
-                            className="text-xs font-medium px-2.5 py-0.5 rounded-full bg-zinc-200 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-200"
-                        >
-                            {tag}
-                        </span>
-                    ))}
-                </div>
-                <h3 className="text-2xl font-bold text-black dark:text-white mb-3">
-                    <Link href={client.link} className="hover:underline">
+            <div className="flex flex-grow flex-col p-5">
+                <p className={cn("mb-2", typography.caption, colors.primaryLight)}>{client.category}</p>
+                <h3 className={cn("mb-3", typography.titleSmall, colors.textPrimaryDark)}>
+                    <Link href={client.link}>
                         {client.name}
                     </Link>
                 </h3>
-                <p className="text-zinc-600 dark:text-zinc-400 mb-8 flex-grow leading-relaxed">{client.description}</p>
-                <div>
-                    <Link href={client.link} className="inline-block px-6 py-3 rounded-full bg-black dark:bg-white text-white dark:text-black font-medium group-hover:opacity-90 transition-opacity">
-                        View {client.name}
-                    </Link>
+                <p className={cn("mb-5 line-clamp-3 flex-grow", typography.bodySmall, colors.textSecondaryDark)}>
+                    {client.description}
+                </p>
+                <div className="flex flex-wrap gap-2">
+                    {client.tags.map((tag: string) => (
+                        <TechChip key={tag} dark>{tag}</TechChip>
+                    ))}
                 </div>
             </div>
         </article>
