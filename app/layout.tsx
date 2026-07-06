@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
+import { absoluteUrl, defaultDescription, siteName, siteUrl } from "@/lib/seo";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,56 +15,99 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
+  applicationName: siteName,
   title: {
-    default: "Vosquery Lab - Digital Product Studio",
-    template: "%s | Vosquery Lab",
+    default: "Vosquery Lab - AI Engineering and AI Automation Studio",
+    template: `%s | ${siteName}`,
   },
-  description: "We build high-performance websites and mobile applications. Expert web design and development studio specializing in Next.js and React.",
-  keywords: ["web design", "web development", "mobile apps", "next.js", "react", "digital agency", "software studio"],
-  authors: [{ name: "Vosquery Lab" }],
-  creator: "Vosquery Lab",
+  description: defaultDescription,
+  keywords: [
+    "AI engineering",
+    "AI agents",
+    "AI automation",
+    "LLM applications",
+    "RAG development",
+    "MCP integrations",
+    "OpenAI integration",
+    "custom AI software",
+    "AI consulting",
+    "React AI applications",
+  ],
+  authors: [{ name: siteName }],
+  creator: siteName,
+  publisher: siteName,
+  category: "AI Engineering",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://vosquerylab.vercel.app",
-    title: "Vosquery Lab - Digital Product Studio",
-    description: "We build high-performance websites and mobile applications.",
-    siteName: "Vosquery Lab",
+    url: siteUrl,
+    title: "Vosquery Lab - AI Engineering and AI Automation Studio",
+    description: defaultDescription,
+    siteName,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vosquery Lab - Digital Product Studio",
-    description: "We build high-performance websites and mobile applications.",
+    title: "Vosquery Lab - AI Engineering and AI Automation Studio",
+    description: defaultDescription,
     creator: "@vosquery",
+  },
+  alternates: {
+    canonical: "/",
   },
   robots: {
     index: true,
     follow: true,
   },
-  verification: {
-    google: "your-google-site-verification-code",
-  },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "Vosquery Lab",
-  url: "https://vosquerylab.vercel.app",
-  logo: "https://vosquerylab.vercel.app/logo.png",
-  description: "We build high-performance websites and mobile applications.",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "Carrer de Colón, 1",
-    addressLocality: "Valencia",
-    postalCode: "46004",
-    addressCountry: "ES",
-  },
-  contactPoint: {
-    "@type": "ContactPoint",
-    telephone: "+34-614-026-351",
-    contactType: "customer service",
-  },
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": absoluteUrl("/#organization"),
+      name: siteName,
+      alternateName: "Vo$Query Lab",
+      url: siteUrl,
+      logo: absoluteUrl("/icon"),
+      description: defaultDescription,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Carrer Apostol Santiago, 36",
+        addressLocality: "Benicassim",
+        postalCode: "12560",
+        addressRegion: "Community of Valencia",
+        addressCountry: "ES",
+      },
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "+34-614-026-351",
+        contactType: "sales",
+        email: "vosquery@gmail.com",
+      },
+      knowsAbout: [
+        "AI Engineering",
+        "AI Agents",
+        "LLM Applications",
+        "RAG Systems",
+        "MCP Integrations",
+        "AI Automation",
+        "React",
+        "React Native",
+        "Next.js",
+      ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": absoluteUrl("/#website"),
+      name: siteName,
+      url: siteUrl,
+      inLanguage: "en",
+      publisher: { "@id": absoluteUrl("/#organization") },
+      description: defaultDescription,
+    },
+  ],
 };
 
 export default function RootLayout({

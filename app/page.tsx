@@ -4,6 +4,22 @@ import Services from "@/containers/Services";
 import Clients from "@/containers/Clients";
 import Contact from "@/containers/Contact";
 import Footer from "@/components/Footer";
+import HomeSeoContent from "@/containers/HomeSeoContent";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "AI Engineering and AI Automation Studio",
+  description:
+    "Vosquery Lab builds AI agents, LLM applications, RAG systems, MCP integrations, workflow automation and custom AI software for B2B teams.",
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: "Vosquery Lab - AI Engineering and Automation Studio",
+    description:
+      "AI agents, LLM applications, RAG systems, MCP integrations and custom AI automation for B2B products and operations.",
+    url: "/",
+    type: "website",
+  },
+};
 
 export default function Home() {
   return (
@@ -12,6 +28,7 @@ export default function Home() {
       <main className="flex flex-col">
         <Hero />
         <Services />
+        <HomeSeoContent />
         <Clients />
         <Contact />
       </main>

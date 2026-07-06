@@ -64,10 +64,7 @@ const mobileApps = [
 
 function MobileAppPreviewCard({ app }: { app: (typeof mobileApps)[number] }) {
   return (
-    <Link
-      href={app.link}
-      className="group flex flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 transition-all duration-300 hover:shadow-xl dark:border-zinc-800 dark:bg-zinc-900"
-    >
+    <article className="group flex flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 transition-all duration-300 hover:shadow-xl dark:border-zinc-800 dark:bg-zinc-900">
       <div className="relative h-[560px] overflow-hidden bg-zinc-100 dark:bg-zinc-950">
         <Image
           src={app.image}
@@ -79,7 +76,11 @@ function MobileAppPreviewCard({ app }: { app: (typeof mobileApps)[number] }) {
       </div>
       <div className="p-8">
         <p className="mb-2 text-sm font-medium text-zinc-500 dark:text-zinc-400">{app.category}</p>
-        <h3 className="mb-3 text-2xl font-bold text-black dark:text-white">{app.name}</h3>
+        <h3 className="mb-3 text-2xl font-bold text-black dark:text-white">
+          <Link href={app.link} className="hover:underline">
+            {app.name}
+          </Link>
+        </h3>
         <p className="mb-6 leading-relaxed text-zinc-600 dark:text-zinc-400">{app.description}</p>
         <div className="flex flex-wrap gap-2">
           {app.tags.map((tag) => (
@@ -92,7 +93,7 @@ function MobileAppPreviewCard({ app }: { app: (typeof mobileApps)[number] }) {
           ))}
         </div>
       </div>
-    </Link>
+    </article>
   );
 }
 
@@ -100,7 +101,7 @@ export default function Clients() {
   return (
     <section id="clients" className="py-24 px-6">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-black dark:text-white mb-12 text-center">Trusted by Clients</h2>
+        <h2 className="text-3xl font-bold text-black dark:text-white mb-12 text-center">AI Products and Client Work</h2>
         <div className="mb-14 grid gap-8 md:grid-cols-2">
           {mobileApps.map((app) => (
             <MobileAppPreviewCard key={app.id} app={app} />

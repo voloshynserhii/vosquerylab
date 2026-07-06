@@ -10,11 +10,14 @@ export default function Header() {
           <span>Vo$Query Lab</span>
         </Link>
         <nav className="hidden md:flex gap-8">
-          <Link href="#services" className="text-sm font-medium text-zinc-600 hover:text-black dark:text-zinc-400 dark:hover:text-white transition-colors">
+          <Link href="/services" className="text-sm font-medium text-zinc-600 hover:text-black dark:text-zinc-400 dark:hover:text-white transition-colors">
             Services
           </Link>
-          <Link href="#clients" className="text-sm font-medium text-zinc-600 hover:text-black dark:text-zinc-400 dark:hover:text-white transition-colors">
-            Clients
+          <Link href="/case-studies" className="text-sm font-medium text-zinc-600 hover:text-black dark:text-zinc-400 dark:hover:text-white transition-colors">
+            Case Studies
+          </Link>
+          <Link href="/blog" className="text-sm font-medium text-zinc-600 hover:text-black dark:text-zinc-400 dark:hover:text-white transition-colors">
+            Blog
           </Link>
           <Link href="#contact" className="text-sm font-medium text-zinc-600 hover:text-black dark:text-zinc-400 dark:hover:text-white transition-colors">
             Contact
