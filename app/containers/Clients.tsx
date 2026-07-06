@@ -71,23 +71,24 @@ const mobileApps = [
 function MobileAppPreviewCard({ app }: { app: (typeof mobileApps)[number] }) {
   return (
     <article className={cn("group flex min-h-full flex-col overflow-hidden border border-white/12 bg-white/6 backdrop-blur-md", radius.xl, shadows.darkCard, transitions.hoverLift)}>
-      <div className="relative h-56 overflow-hidden bg-white/8">
+      <div className="relative h-[520px] overflow-hidden bg-[#060916] md:h-[620px]">
+        <div className="absolute inset-x-8 bottom-0 top-8 rounded-[2.5rem] border border-white/12 bg-black/30 shadow-[0_24px_90px_rgba(0,0,0,0.5)]" />
         <Image
           src={app.image}
           alt={`${app.name} app preview`}
           fill
-          className={cn("object-cover", transitions.scaleHover)}
+          className={cn("object-contain p-6 md:p-8", transitions.scaleHover)}
           sizes="(min-width: 1024px) 50vw, 100vw"
         />
       </div>
-      <div className="flex flex-grow flex-col p-5">
+      <div className="flex flex-grow flex-col p-7">
         <p className={cn("mb-2", typography.caption, colors.primaryLight)}>{app.category}</p>
         <h3 className={cn("mb-3", typography.titleSmall, colors.textPrimaryDark)}>
           <Link href={app.link}>
             {app.name}
           </Link>
         </h3>
-        <p className={cn("mb-5 line-clamp-3 flex-grow", typography.bodySmall, colors.textSecondaryDark)}>{app.description}</p>
+        <p className={cn("mb-6 flex-grow", typography.bodySmall, colors.textSecondaryDark)}>{app.description}</p>
         <div className="flex flex-wrap gap-2">
           {app.tags.map((tag) => (
             <TechChip key={tag} dark>{tag}</TechChip>
