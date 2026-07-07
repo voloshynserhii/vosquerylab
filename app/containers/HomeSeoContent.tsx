@@ -4,6 +4,7 @@ import Container from "@/components/ui/Container";
 import GlassCard from "@/components/ui/GlassCard";
 import Reveal from "@/components/ui/Reveal";
 import { GradientButton } from "@/components/ui/Buttons";
+import { siteName, siteUrl } from "@/lib/seo";
 import { localizePath, type Locale } from "@i18n/config";
 import type { Dictionary } from "@i18n/dictionaries";
 import { cn, colors, radius, space, typography } from "../../src/theme";
@@ -24,6 +25,23 @@ export default function HomeSeoContent({
   dictionary: Pick<Dictionary, "home">;
 }) {
   const seo = dictionary.home.seo;
+  const shareUrl = `${siteUrl}${localizePath(locale)}`;
+  const encodedShareUrl = encodeURIComponent(shareUrl);
+  const encodedShareText = encodeURIComponent(`${siteName}: ${seo.title}`);
+  const shareLinks = [
+    {
+      label: "LinkedIn",
+      href: `https://www.linkedin.com/sharing/share-offsite/?url=${encodedShareUrl}`,
+    },
+    {
+      label: "X",
+      href: `https://twitter.com/intent/tweet?url=${encodedShareUrl}&text=${encodedShareText}`,
+    },
+    {
+      label: "Facebook",
+      href: `https://www.facebook.com/sharer/sharer.php?u=${encodedShareUrl}`,
+    },
+  ];
 
   return (
     <section className={cn("bg-white", space.sectionY)}>
@@ -52,6 +70,27 @@ export default function HomeSeoContent({
               >
                 {seo.secondaryCta}
               </Link>
+            </div>
+            <div className="mt-8 flex flex-wrap items-center gap-3">
+              <span className={cn(typography.caption, colors.textMuted)}>
+                Share this page
+              </span>
+              {shareLinks.map((link) => (
+                <a
+                  key={link.label}
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={cn(
+                    "inline-flex items-center justify-center border border-slate-200 bg-white px-4 py-2 hover:border-violet-200 hover:bg-slate-50",
+                    typography.caption,
+                    radius.full,
+                    colors.textPrimary,
+                  )}
+                >
+                  {link.label}
+                </a>
+              ))}
             </div>
           </div>
         </Reveal>

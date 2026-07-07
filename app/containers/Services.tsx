@@ -33,7 +33,7 @@ export default function Services({
                 href={localizePath(locale, service.href)}
                 icon={serviceIcons[index % serviceIcons.length]}
                 tone={tones[index % tones.length]}
-                cta={dictionary.home.services.title}
+                cta={`Learn about ${service.title}`}
               />
             </Reveal>
           ))}
