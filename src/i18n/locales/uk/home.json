@@ -1,0 +1,217 @@
+{
+  "hero": {
+    "eyebrow": "Розробка AI-рішень",
+    "titleBefore": "AI-розробка та автоматизація для",
+    "titleHighlight": "B2B-продуктів",
+    "description": "Vosquery Lab проєктує і створює AI-агентів, LLM-застосунки, RAG-системи, MCP-інтеграції та кастомну AI-автоматизацію для компаній, яким потрібне production-ready ПЗ.",
+    "primaryCta": "Обговорити AI-проєкт",
+    "secondaryCta": "Переглянути послуги",
+    "features": [
+      "Готові до production AI-рішення",
+      "Розробка під ключ",
+      "Сучасний стек і практики",
+      "Масштабовано й безпечно"
+    ],
+    "partnersLabel": "Технології та партнери",
+    "partners": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "LangChain",
+      "Next.js",
+      "React",
+      "PostgreSQL",
+      "Docker",
+      "AWS"
+    ],
+    "illustrationLabels": [
+      "LLM-застосунки",
+      "RAG-системи",
+      "AI-агенти",
+      "MCP-інтеграції",
+      "AI-автоматизація"
+    ]
+  },
+  "services": {
+    "eyebrow": "Що ми робимо",
+    "title": "AI-послуги",
+    "items": [
+      {
+        "title": "AI-розробка",
+        "href": "/services/ai-engineering",
+        "description": "Готові до production LLM-застосунки, AI-агенти, RAG-системи та backend AI-процеси, спроєктовані навколо реальних бізнес-обмежень."
+      },
+      {
+        "title": "AI-автоматизація",
+        "href": "/services/ai-workflow-automation",
+        "description": "Автоматизація процесів, яка поєднує AI-моделі з API, документами, CRM, support tools і внутрішніми бізнес-системами."
+      },
+      {
+        "title": "React AI-продукти",
+        "href": "/services/react-ai-applications",
+        "description": "Web і mobile продукти з AI на Next.js, React та React Native: chat, voice, документи й dashboard-інтерфейси."
+      }
+    ]
+  },
+  "seo": {
+    "eyebrow": "студія AI-розробки",
+    "title": "Практичні AI-системи для реальних бізнес-процесів",
+    "description": "Vosquery Lab допомагає компаніям перейти від AI-експериментів до корисного ПЗ. Ми працюємо з бізнес-процесами, поведінкою моделей, доступом до даних, інтеграціями, UX і підтримуваною архітектурою.",
+    "primaryCta": "Переглянути AI-послуги",
+    "secondaryCta": "Переглянути кейси",
+    "facts": [
+      {
+        "title": "Хто такі Vosquery Lab",
+        "text": "Vosquery Lab — студія AI-розробки та AI-автоматизації в Іспанії. Ми створюємо AI-агентів, LLM-застосунки, RAG-системи, MCP-інтеграції та кастомне AI-ПЗ для стартапів і B2B-команд."
+      },
+      {
+        "title": "Ідеальні клієнти",
+        "text": "Найкраще підходимо фаундерам, продуктовим і операційним командам, яким потрібні практичні AI-функції, AI MVP, внутрішня автоматизація, AI для баз знань або інтеграції з існуючим ПЗ."
+      },
+      {
+        "title": "Підхід до розробки",
+        "text": "Проєкти починаються з discovery, мапінгу процесів та архітектури. Далі ми фокусуємося на прототипах, production-коді, інтеграціях, тестуванні, деплої та ітераціях за реальним фідбеком."
+      },
+      {
+        "title": "Технологічний стек",
+        "text": "Стек включає OpenAI, Anthropic Claude, Google Gemini, Next.js, React, React Native, Node.js, векторні бази даних, RAG pipelines, API-інтеграції та Model Context Protocol."
+      }
+    ]
+  },
+  "clients": {
+    "eyebrow": "Вибрані роботи",
+    "title": "AI-продукти та клієнтські проєкти",
+    "viewAll": "Усі проєкти",
+    "ctaTitle": "Готові створити наступний AI-продукт?",
+    "ctaText": "Перетворимо вашу ідею на production-ready AI-рішення з реальною бізнес-цінністю.",
+    "primaryCta": "Обговорити AI-проєкт",
+    "secondaryCta": "Зв’язатися",
+    "items": [
+      {
+        "id": "navifit",
+        "name": "NaviFit",
+        "category": "Web application і mobile app",
+        "description": "Комплексна fitness-платформа з персоналізованими meal plans і nutrition tracking, створена на сучасному web stack для плавного user experience.",
+        "image": "https://navifit.eu/images/app-preview.png",
+        "tags": [
+          "Next.js",
+          "React Native",
+          "Фітнес",
+          "Здоровʼя",
+          "PWA"
+        ],
+        "link": "https://navifit.eu"
+      },
+      {
+        "id": "pani-yulya-kids",
+        "name": "Pani Yulya Kids",
+        "category": "E-commerce",
+        "description": "Яскрава entertainment-платформа, де фанати Пані Юлі слухають ексклюзивну музику, замовляють персональні відеопривітання та купують іграшки з YouTube-відео.",
+        "image": "https://pani-yulya-shop.vercel.app/_next/image?url=%2Fimages%2Fhero_image.jpeg&w=1200&q=75",
+        "tags": [
+          "E-commerce",
+          "Next.js",
+          "UI/UX",
+          "Діти",
+          "Музика"
+        ],
+        "link": "https://pani-yulya.kids"
+      },
+      {
+        "id": "pine-hotel",
+        "name": "A Hotel in the Mountains",
+        "category": "Готельний бізнес",
+        "description": "Сайт для hotel experience з сучасними зручностями, персоналізованим сервісом, сильною візуальною подачею локації та акцентом на guest satisfaction.",
+        "image": "https://pinehotel.vercel.app/_next/image?url=%2Fimages%2Fhero2.jpg&w=3840&q=75",
+        "tags": [
+          "Next.js",
+          "React",
+          "Готель",
+          "Hospitality",
+          "Travel"
+        ],
+        "link": "https://pinehotel.vercel.app"
+      },
+      {
+        "id": "castellon-cycling-tours",
+        "name": "Cycling Tours",
+        "category": "Фітнес і здоровʼя",
+        "description": "Компанія, що організовує cycling tours і пропонує проживання у власному countryside hotel.",
+        "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=2070",
+        "tags": [
+          "Next.js",
+          "React",
+          "Велотури",
+          "Подорожі",
+          "Туризм"
+        ],
+        "link": "https://tours-ecru-seven.vercel.app/"
+      }
+    ],
+    "mobileApps": [
+      {
+        "id": "taluna-stories",
+        "name": "Taluna Stories",
+        "category": "AI storytelling mobile app",
+        "description": "Магічний конструктор історій, де сімʼя обирає дитину, супутника й світ, щоб створювати персоналізовані пригоди.",
+        "image": "/assets/clients/taluna.jpeg",
+        "tags": [
+          "React Native",
+          "AI",
+          "Діти",
+          "Підписки"
+        ],
+        "link": "https://apps.apple.com/app/taluna-bedtime-magic/id6770110481?l=en-GB"
+      },
+      {
+        "id": "epik-childhood-book",
+        "name": "Childhood Book",
+        "category": "Мобільний застосунок сімейних спогадів",
+        "description": "Теплий memory journal, який перетворює збережені сімейні моменти, highlights і milestones на preview дитячої книги.",
+        "image": "/assets/clients/memory-box.jpeg",
+        "tags": [
+          "Mobile UX",
+          "Спогади",
+          "Сімʼя",
+          "Book builder"
+        ],
+        "link": "#"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Контакти",
+    "title": "Готові створити щось сильне?",
+    "description": "Обговорімо ваш проєкт і те, як ми можемо допомогти з AI-розробкою.",
+    "details": [
+      {
+        "title": "Написати нам",
+        "value": "vosquery@gmail.com",
+        "href": "mailto:hello@vosquery.lab"
+      },
+      {
+        "title": "Завітати до нас",
+        "value": "Carrer Apostol Santiago, 36\n12560 Benicassim, Community of Valencia, Spain"
+      },
+      {
+        "title": "Подзвонити",
+        "value": "+34 614 026 351",
+        "href": "tel:+34614026351"
+      }
+    ],
+    "form": {
+      "name": "Імʼя",
+      "phone": "Телефон",
+      "email": "Email",
+      "message": "Повідомлення",
+      "namePlaceholder": "Іван Петренко",
+      "phonePlaceholder": "+380 67 000 0000",
+      "emailPlaceholder": "ivan@example.com",
+      "messagePlaceholder": "Розкажіть про ваш проєкт...",
+      "submit": "Надіслати заявку",
+      "submitting": "Надсилаємо...",
+      "success": "Повідомлення надіслано!",
+      "error": "Не вдалося надіслати повідомлення. Спробуйте ще раз."
+    }
+  }
+}

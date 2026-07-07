@@ -1,0 +1,188 @@
+{
+  "page": {
+    "eyebrow": "YAPAY ZEKA ÇÖZÜMLERI",
+    "title": "Yapay Zeka Çözümleri",
+    "subtitle": "Vosquery Lab; AI agents, RAG, LLM uygulamaları, workflow automation, entegrasyonlar ve sürdürülebilir AI ürün geliştirme ihtiyacı olan şirketler için production-ready AI sistemleri kurar.",
+    "badges": [
+      "AI Agents",
+      "RAG",
+      "LLM",
+      "MCP",
+      "AI Automation"
+    ],
+    "featuredEyebrow": "Ana hizmet",
+    "featuredCta": "AI engineering hizmetini incele",
+    "filters": [
+      "Tüm hizmetler",
+      "AI ürünleri",
+      "Otomasyon",
+      "Entegrasyonlar",
+      "RAG",
+      "Frontend AI"
+    ],
+    "ctaTitle": "Production-ready bir AI sistemine mi ihtiyacınız var?",
+    "primaryCta": "AI projesini konuşalım",
+    "secondaryCta": "Örnek çalışmaları gör",
+    "categories": {
+      "retrieval": "Retrieval",
+      "integration": "Entegrasyon",
+      "automation": "Otomasyon",
+      "product": "Ürün",
+      "engineering": "AI Engineering"
+    }
+  },
+  "items": {
+    "ai-engineering": {
+      "title": "AI Engineering",
+      "shortTitle": "AI Engineering",
+      "metaTitle": "AI Engineering | Vosquery Lab",
+      "metaDescription": "B2B ürünler için AI Engineering: LLM uygulamaları, AI agents, RAG, entegrasyonlar ve production-ready mimariye sahip backend workflows.",
+      "searchIntent": "AI Engineering için ticari uygulama niyetiyle çözüm arayan şirketler."
+    },
+    "ai-agents": {
+      "title": "AI agents",
+      "shortTitle": "AI agents",
+      "metaTitle": "AI agents | Vosquery Lab",
+      "metaDescription": "Gerçek iş süreçlerini yürütmek için tools, retrieval, API ve guardrails kullanan AI agents tasarımı.",
+      "searchIntent": "AI agents için ticari uygulama niyetiyle çözüm arayan şirketler."
+    },
+    "custom-ai-development": {
+      "title": "Özel AI geliştirme",
+      "shortTitle": "Özel AI geliştirme",
+      "metaTitle": "Özel AI geliştirme | Vosquery Lab",
+      "metaDescription": "Özel AI geliştirme; pratik AI engineering, entegrasyon, otomasyon ve gereksiz karmaşıklık olmadan production-ready uygulama isteyen ekipler için.",
+      "searchIntent": "Özel AI geliştirme için ticari uygulama niyetiyle çözüm arayan şirketler."
+    },
+    "llm-integration": {
+      "title": "LLM entegrasyonu",
+      "shortTitle": "LLM entegrasyonu",
+      "metaTitle": "LLM entegrasyonu | Vosquery Lab",
+      "metaDescription": "LLM entegrasyonu; pratik AI engineering, entegrasyon, otomasyon ve gereksiz karmaşıklık olmadan production-ready uygulama isteyen ekipler için.",
+      "searchIntent": "LLM entegrasyonu için ticari uygulama niyetiyle çözüm arayan şirketler."
+    },
+    "openai-integration": {
+      "title": "OpenAI entegrasyonu",
+      "shortTitle": "OpenAI entegrasyonu",
+      "metaTitle": "OpenAI entegrasyonu | Vosquery Lab",
+      "metaDescription": "OpenAI entegrasyonu; pratik AI engineering, entegrasyon, otomasyon ve gereksiz karmaşıklık olmadan production-ready uygulama isteyen ekipler için.",
+      "searchIntent": "OpenAI entegrasyonu için ticari uygulama niyetiyle çözüm arayan şirketler."
+    },
+    "anthropic-integration": {
+      "title": "Anthropic Claude entegrasyonu",
+      "shortTitle": "Anthropic Claude entegrasyonu",
+      "metaTitle": "Anthropic Claude entegrasyonu | Vosquery Lab",
+      "metaDescription": "Anthropic Claude entegrasyonu; pratik AI engineering, entegrasyon, otomasyon ve gereksiz karmaşıklık olmadan production-ready uygulama isteyen ekipler için.",
+      "searchIntent": "Anthropic Claude entegrasyonu için ticari uygulama niyetiyle çözüm arayan şirketler."
+    },
+    "google-gemini-integration": {
+      "title": "Google Gemini entegrasyonu",
+      "shortTitle": "Google Gemini entegrasyonu",
+      "metaTitle": "Google Gemini entegrasyonu | Vosquery Lab",
+      "metaDescription": "Google Gemini entegrasyonu; pratik AI engineering, entegrasyon, otomasyon ve gereksiz karmaşıklık olmadan production-ready uygulama isteyen ekipler için.",
+      "searchIntent": "Google Gemini entegrasyonu için ticari uygulama niyetiyle çözüm arayan şirketler."
+    },
+    "ai-chatbots": {
+      "title": "AI chatbotlar",
+      "shortTitle": "AI chatbotlar",
+      "metaTitle": "AI chatbotlar | Vosquery Lab",
+      "metaDescription": "AI chatbotlar; pratik AI engineering, entegrasyon, otomasyon ve gereksiz karmaşıklık olmadan production-ready uygulama isteyen ekipler için.",
+      "searchIntent": "AI chatbotlar için ticari uygulama niyetiyle çözüm arayan şirketler."
+    },
+    "ai-voice-assistants": {
+      "title": "Sesli AI asistanları",
+      "shortTitle": "Sesli AI asistanları",
+      "metaTitle": "Sesli AI asistanları | Vosquery Lab",
+      "metaDescription": "Sesli AI asistanları; pratik AI engineering, entegrasyon, otomasyon ve gereksiz karmaşıklık olmadan production-ready uygulama isteyen ekipler için.",
+      "searchIntent": "Sesli AI asistanları için ticari uygulama niyetiyle çözüm arayan şirketler."
+    },
+    "rag-development": {
+      "title": "RAG geliştirme",
+      "shortTitle": "RAG geliştirme",
+      "metaTitle": "RAG geliştirme | Vosquery Lab",
+      "metaDescription": "Özel dokümanlar, knowledge base, support içerikleri ve iç verilerden doğru yanıtlar veren RAG sistemleri.",
+      "searchIntent": "RAG geliştirme için ticari uygulama niyetiyle çözüm arayan şirketler."
+    },
+    "vector-databases": {
+      "title": "Vektör veritabanları",
+      "shortTitle": "Vektör veritabanları",
+      "metaTitle": "Vektör veritabanları | Vosquery Lab",
+      "metaDescription": "Vektör veritabanları; pratik AI engineering, entegrasyon, otomasyon ve gereksiz karmaşıklık olmadan production-ready uygulama isteyen ekipler için.",
+      "searchIntent": "Vektör veritabanları için ticari uygulama niyetiyle çözüm arayan şirketler."
+    },
+    "mcp-integrations": {
+      "title": "MCP entegrasyonları",
+      "shortTitle": "MCP entegrasyonları",
+      "metaTitle": "MCP entegrasyonları | Vosquery Lab",
+      "metaDescription": "AI asistanlarını iş araçlarına, API’lere, dosyalara ve iç sistemlere bağlayan MCP entegrasyonları.",
+      "searchIntent": "MCP entegrasyonları için ticari uygulama niyetiyle çözüm arayan şirketler."
+    },
+    "ai-workflow-automation": {
+      "title": "AI workflow otomasyonu",
+      "shortTitle": "AI workflow otomasyonu",
+      "metaTitle": "AI workflow otomasyonu | Vosquery Lab",
+      "metaDescription": "Tekrarlı operasyonlar için AI workflow otomasyonu: dokümanlar, routing, notifications, API actions ve gerektiğinde human review.",
+      "searchIntent": "AI workflow otomasyonu için ticari uygulama niyetiyle çözüm arayan şirketler."
+    },
+    "ai-consulting": {
+      "title": "AI danışmanlığı",
+      "shortTitle": "AI danışmanlığı",
+      "metaTitle": "AI danışmanlığı | Vosquery Lab",
+      "metaDescription": "AI danışmanlığı; pratik AI engineering, entegrasyon, otomasyon ve gereksiz karmaşıklık olmadan production-ready uygulama isteyen ekipler için.",
+      "searchIntent": "AI danışmanlığı için ticari uygulama niyetiyle çözüm arayan şirketler."
+    },
+    "react-ai-applications": {
+      "title": "React AI uygulamaları",
+      "shortTitle": "React AI uygulamaları",
+      "metaTitle": "React AI uygulamaları | Vosquery Lab",
+      "metaDescription": "React AI uygulamaları; pratik AI engineering, entegrasyon, otomasyon ve gereksiz karmaşıklık olmadan production-ready uygulama isteyen ekipler için.",
+      "searchIntent": "React AI uygulamaları için ticari uygulama niyetiyle çözüm arayan şirketler."
+    },
+    "react-native-ai-apps": {
+      "title": "React Native AI apps",
+      "shortTitle": "React Native AI apps",
+      "metaTitle": "React Native AI apps | Vosquery Lab",
+      "metaDescription": "React Native AI apps; pratik AI engineering, entegrasyon, otomasyon ve gereksiz karmaşıklık olmadan production-ready uygulama isteyen ekipler için.",
+      "searchIntent": "React Native AI apps için ticari uygulama niyetiyle çözüm arayan şirketler."
+    },
+    "backend-ai-systems": {
+      "title": "Backend AI sistemleri",
+      "shortTitle": "Backend AI sistemleri",
+      "metaTitle": "Backend AI sistemleri | Vosquery Lab",
+      "metaDescription": "Backend AI sistemleri; pratik AI engineering, entegrasyon, otomasyon ve gereksiz karmaşıklık olmadan production-ready uygulama isteyen ekipler için.",
+      "searchIntent": "Backend AI sistemleri için ticari uygulama niyetiyle çözüm arayan şirketler."
+    },
+    "document-ai": {
+      "title": "Document AI",
+      "shortTitle": "Document AI",
+      "metaTitle": "Document AI | Vosquery Lab",
+      "metaDescription": "Document AI; pratik AI engineering, entegrasyon, otomasyon ve gereksiz karmaşıklık olmadan production-ready uygulama isteyen ekipler için.",
+      "searchIntent": "Document AI için ticari uygulama niyetiyle çözüm arayan şirketler."
+    },
+    "knowledge-base-ai": {
+      "title": "Bilgi tabanı AI",
+      "shortTitle": "Bilgi tabanı AI",
+      "metaTitle": "Bilgi tabanı AI | Vosquery Lab",
+      "metaDescription": "Bilgi tabanı AI; pratik AI engineering, entegrasyon, otomasyon ve gereksiz karmaşıklık olmadan production-ready uygulama isteyen ekipler için.",
+      "searchIntent": "Bilgi tabanı AI için ticari uygulama niyetiyle çözüm arayan şirketler."
+    },
+    "enterprise-ai": {
+      "title": "Enterprise AI",
+      "shortTitle": "Enterprise AI",
+      "metaTitle": "Enterprise AI | Vosquery Lab",
+      "metaDescription": "Enterprise AI; pratik AI engineering, entegrasyon, otomasyon ve gereksiz karmaşıklık olmadan production-ready uygulama isteyen ekipler için.",
+      "searchIntent": "Enterprise AI için ticari uygulama niyetiyle çözüm arayan şirketler."
+    }
+  },
+  "detail": {
+    "eyebrow": "AI hizmeti",
+    "whoNeedsIt": "Kimler için",
+    "problemsSolved": "Çözdüğü iş problemleri",
+    "benefits": "Faydalar",
+    "technologies": "Teknoloji stack",
+    "process": "Uygulama süreci",
+    "timeline": "Tipik timeline",
+    "ctaTitle": "AI uygulamasını planlayalım",
+    "ctaText": "Geliştirmek istediğiniz workflow, product feature veya otomasyonu paylaşın. Mimariyi ve bir sonraki uygulama adımını netleştirelim.",
+    "summarySuffix": "Bu sayfa hizmetin kimler için uygun olduğunu, hangi problemleri çözdüğünü, Vosquery Lab’in nasıl uyguladığını ve beklenen timeline’ı açıklar."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "page": {
+    "eyebrow": "КЕЙСЫ AI",
+    "title": "Кейсы AI",
+    "subtitle": "Примеры AI-продуктов, React AI-приложений, мобильных AI apps, document processing, интеграций и workflow automation.",
+    "badges": [
+      "AI-продукты",
+      "React AI-приложения",
+      "Автоматизация процессов",
+      "LLM-интеграции",
+      "RAG-системы"
+    ],
+    "featuredEyebrow": "Избранное",
+    "featuredCta": "Посмотреть избранный кейс",
+    "ctaTitle": "Есть идея AI-продукта?",
+    "primaryCta": "Обсудить AI-проект",
+    "secondaryCta": "Посмотреть AI-услуги",
+    "detail": {
+      "eyebrow": "Кейс"
+    }
+  },
+  "detail": {
+    "eyebrow": "Кейс",
+    "problem": "Проблема",
+    "solution": "Решение",
+    "architecture": "Архитектура",
+    "technologies": "Технологии",
+    "results": "Результаты"
+  }
+}

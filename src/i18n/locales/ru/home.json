@@ -1,0 +1,217 @@
+{
+  "hero": {
+    "eyebrow": "Разработка AI-решений",
+    "titleBefore": "AI-разработка и автоматизация для",
+    "titleHighlight": "B2B-продуктов",
+    "description": "Vosquery Lab проектирует и создает AI-агентов, LLM-приложения, RAG-системы, MCP-интеграции и кастомную AI-автоматизацию для компаний, которым нужно production-ready ПО.",
+    "primaryCta": "Обсудить AI-проект",
+    "secondaryCta": "Посмотреть услуги",
+    "features": [
+      "Готовые к production AI-решения",
+      "Разработка под ключ",
+      "Современный стек и практики",
+      "Масштабируемо и безопасно"
+    ],
+    "partnersLabel": "Технологии и партнеры",
+    "partners": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "LangChain",
+      "Next.js",
+      "React",
+      "PostgreSQL",
+      "Docker",
+      "AWS"
+    ],
+    "illustrationLabels": [
+      "LLM-приложения",
+      "RAG-системы",
+      "AI-агенты",
+      "MCP-интеграции",
+      "AI-автоматизация"
+    ]
+  },
+  "services": {
+    "eyebrow": "Что мы делаем",
+    "title": "AI-услуги",
+    "items": [
+      {
+        "title": "AI-разработка",
+        "href": "/services/ai-engineering",
+        "description": "Готовые к production LLM-приложения, AI-агенты, RAG-системы и backend AI-процессы, спроектированные вокруг реальных бизнес-ограничений."
+      },
+      {
+        "title": "AI-автоматизация",
+        "href": "/services/ai-workflow-automation",
+        "description": "Автоматизация процессов, которая соединяет AI-модели с API, документами, CRM, support tools и внутренними бизнес-системами."
+      },
+      {
+        "title": "React AI-продукты",
+        "href": "/services/react-ai-applications",
+        "description": "Web и mobile продукты с AI на Next.js, React и React Native: chat, voice, документы и dashboard-интерфейсы."
+      }
+    ]
+  },
+  "seo": {
+    "eyebrow": "студия AI-разработки",
+    "title": "Практичные AI-системы для реальных бизнес-процессов",
+    "description": "Vosquery Lab помогает компаниям перейти от AI-экспериментов к полезному ПО. Мы учитываем бизнес-процессы, поведение моделей, доступ к данным, интеграции, UX и поддерживаемую архитектуру.",
+    "primaryCta": "Посмотреть AI-услуги",
+    "secondaryCta": "Посмотреть кейсы",
+    "facts": [
+      {
+        "title": "Кто такие Vosquery Lab",
+        "text": "Vosquery Lab — студия AI-разработки и AI-автоматизации в Испании. Мы создаем AI-агентов, LLM-приложения, RAG-системы, MCP-интеграции и кастомное AI-ПО для стартапов и B2B-команд."
+      },
+      {
+        "title": "Идеальные клиенты",
+        "text": "Лучше всего подходим фаундерам, продуктовым и операционным командам, которым нужны практичные AI-функции, AI MVP, внутренняя автоматизация, AI для баз знаний или интеграции с существующим ПО."
+      },
+      {
+        "title": "Подход к разработке",
+        "text": "Проекты начинаются с discovery, маппинга процессов и архитектуры. Затем мы фокусируемся на прототипах, production-коде, интеграциях, тестировании, деплое и итерациях по реальному фидбеку."
+      },
+      {
+        "title": "Технологический стек",
+        "text": "Стек включает OpenAI, Anthropic Claude, Google Gemini, Next.js, React, React Native, Node.js, векторные базы данных, RAG pipelines, API-интеграции и Model Context Protocol."
+      }
+    ]
+  },
+  "clients": {
+    "eyebrow": "Избранные работы",
+    "title": "AI-продукты и клиентские проекты",
+    "viewAll": "Все проекты",
+    "ctaTitle": "Готовы создать следующий AI-продукт?",
+    "ctaText": "Превратим вашу идею в production-ready AI-решение с реальной бизнес-ценностью.",
+    "primaryCta": "Обсудить AI-проект",
+    "secondaryCta": "Связаться",
+    "items": [
+      {
+        "id": "navifit",
+        "name": "NaviFit",
+        "category": "Web application и mobile app",
+        "description": "Комплексная fitness-платформа с персонализированными meal plans и nutrition tracking, созданная на современном web stack для плавного user experience.",
+        "image": "https://navifit.eu/images/app-preview.png",
+        "tags": [
+          "Next.js",
+          "React Native",
+          "Фитнес",
+          "Здоровье",
+          "PWA"
+        ],
+        "link": "https://navifit.eu"
+      },
+      {
+        "id": "pani-yulya-kids",
+        "name": "Pani Yulya Kids",
+        "category": "E-commerce",
+        "description": "Яркая entertainment-платформа, где фанаты Пани Юли слушают эксклюзивную музыку, заказывают персональные видеопоздравления и покупают игрушки из YouTube-видео.",
+        "image": "https://pani-yulya-shop.vercel.app/_next/image?url=%2Fimages%2Fhero_image.jpeg&w=1200&q=75",
+        "tags": [
+          "E-commerce",
+          "Next.js",
+          "UI/UX",
+          "Дети",
+          "Музыка"
+        ],
+        "link": "https://pani-yulya.kids"
+      },
+      {
+        "id": "pine-hotel",
+        "name": "A Hotel in the Mountains",
+        "category": "Гостиничный бизнес",
+        "description": "Сайт для hotel experience с современными удобствами, персонализированным сервисом, сильной визуальной подачей локации и акцентом на guest satisfaction.",
+        "image": "https://pinehotel.vercel.app/_next/image?url=%2Fimages%2Fhero2.jpg&w=3840&q=75",
+        "tags": [
+          "Next.js",
+          "React",
+          "Отель",
+          "Hospitality",
+          "Travel"
+        ],
+        "link": "https://pinehotel.vercel.app"
+      },
+      {
+        "id": "castellon-cycling-tours",
+        "name": "Cycling Tours",
+        "category": "Фитнес и здоровье",
+        "description": "Компания, которая организует cycling tours и предлагает проживание в собственном countryside hotel.",
+        "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=2070",
+        "tags": [
+          "Next.js",
+          "React",
+          "Велотуры",
+          "Путешествия",
+          "Туризм"
+        ],
+        "link": "https://tours-ecru-seven.vercel.app/"
+      }
+    ],
+    "mobileApps": [
+      {
+        "id": "taluna-stories",
+        "name": "Taluna Stories",
+        "category": "AI storytelling mobile app",
+        "description": "Магический конструктор историй, где семья выбирает ребенка, спутника и мир, чтобы создавать персонализированные приключения.",
+        "image": "/assets/clients/taluna.jpeg",
+        "tags": [
+          "React Native",
+          "AI",
+          "Дети",
+          "Подписки"
+        ],
+        "link": "https://apps.apple.com/app/taluna-bedtime-magic/id6770110481?l=en-GB"
+      },
+      {
+        "id": "epik-childhood-book",
+        "name": "Childhood Book",
+        "category": "Мобильное приложение семейных воспоминаний",
+        "description": "Теплый memory journal, который превращает сохраненные семейные моменты, highlights и milestones в preview детской книги.",
+        "image": "/assets/clients/memory-box.jpeg",
+        "tags": [
+          "Mobile UX",
+          "Воспоминания",
+          "Семья",
+          "Book builder"
+        ],
+        "link": "#"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Контакты",
+    "title": "Готовы создать что-то сильное?",
+    "description": "Обсудим ваш проект и как мы можем помочь с AI-разработкой.",
+    "details": [
+      {
+        "title": "Написать нам",
+        "value": "vosquery@gmail.com",
+        "href": "mailto:hello@vosquery.lab"
+      },
+      {
+        "title": "Посетить нас",
+        "value": "Carrer Apostol Santiago, 36\n12560 Benicassim, Community of Valencia, Spain"
+      },
+      {
+        "title": "Позвонить",
+        "value": "+34 614 026 351",
+        "href": "tel:+34614026351"
+      }
+    ],
+    "form": {
+      "name": "Имя",
+      "phone": "Телефон",
+      "email": "Email",
+      "message": "Сообщение",
+      "namePlaceholder": "Иван Иванов",
+      "phonePlaceholder": "+34 614 026 351",
+      "emailPlaceholder": "ivan@example.com",
+      "messagePlaceholder": "Расскажите о вашем проекте...",
+      "submit": "Отправить заявку",
+      "submitting": "Отправляем...",
+      "success": "Сообщение отправлено!",
+      "error": "Не удалось отправить сообщение. Попробуйте еще раз."
+    }
+  }
+}

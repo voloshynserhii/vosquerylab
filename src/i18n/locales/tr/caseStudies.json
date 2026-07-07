@@ -1,0 +1,31 @@
+{
+  "page": {
+    "eyebrow": "AI ÖRNEK ÇALIŞMALARI",
+    "title": "AI örnek çalışmaları",
+    "subtitle": "AI ürünleri, React AI uygulamaları, mobil AI apps, document processing, entegrasyonlar ve workflow automation projelerinden örnekler.",
+    "badges": [
+      "AI ürünleri",
+      "React AI uygulamaları",
+      "Süreç otomasyonu",
+      "LLM entegrasyonları",
+      "RAG sistemleri"
+    ],
+    "featuredEyebrow": "Öne çıkan",
+    "featuredCta": "Öne çıkan çalışmayı gör",
+    "ctaTitle": "Bir AI ürün fikriniz mi var?",
+    "primaryCta": "AI projesini konuşalım",
+    "secondaryCta": "AI hizmetlerini gör",
+    "detail": {
+      "eyebrow": "Örnek çalışma",
+      "problem": "Sorun"
+    }
+  },
+  "detail": {
+    "eyebrow": "Örnek çalışma",
+    "problem": "Sorun",
+    "solution": "Çözüm",
+    "architecture": "Mimari",
+    "technologies": "Teknolojiler",
+    "results": "Sonuçlar"
+  }
+}

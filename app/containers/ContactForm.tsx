@@ -2,6 +2,7 @@
 
 import { useRef, useState } from 'react';
 import { sendEmail } from '@/actions/send-email';
+import type { Dictionary } from '@i18n/dictionaries';
 import { cn, colors, radius, transitions, typography } from '../../src/theme';
 
 const fieldClass = cn(
@@ -13,7 +14,11 @@ const fieldClass = cn(
 
 const labelClass = cn("mb-2 block", typography.caption, colors.textMutedDark);
 
-export default function ContactForm() {
+export default function ContactForm({
+  labels,
+}: {
+  labels: Dictionary["home"]["contact"]["form"];
+}) {
   const formRef = useRef<HTMLFormElement>(null);
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
 
@@ -33,47 +38,47 @@ export default function ContactForm() {
     <form ref={formRef} action={handleSubmit} className="mx-auto mt-12 max-w-2xl space-y-6 text-left">
       <div className="grid gap-6 md:grid-cols-2">
         <div>
-          <label htmlFor="name" className={labelClass}>Name</label>
+          <label htmlFor="name" className={labelClass}>{labels.name}</label>
           <input
             type="text"
             id="name"
             name="name"
             required
             className={fieldClass}
-            placeholder="John Doe"
+            placeholder={labels.namePlaceholder}
           />
         </div>
         <div>
-          <label htmlFor="phone" className={labelClass}>Phone</label>
+          <label htmlFor="phone" className={labelClass}>{labels.phone}</label>
           <input
             type="tel"
             id="phone"
             name="phone"
             className={fieldClass}
-            placeholder="+1 (555) 000-0000"
+            placeholder={labels.phonePlaceholder}
           />
         </div>
       </div>
       <div>
-        <label htmlFor="email" className={labelClass}>Email</label>
+        <label htmlFor="email" className={labelClass}>{labels.email}</label>
         <input
           type="email"
           id="email"
           name="email"
           required
           className={fieldClass}
-          placeholder="john@example.com"
+          placeholder={labels.emailPlaceholder}
         />
       </div>
       <div>
-        <label htmlFor="message" className={labelClass}>Message</label>
+        <label htmlFor="message" className={labelClass}>{labels.message}</label>
         <textarea
           id="message"
           name="message"
           required
           rows={4}
           className={cn(fieldClass, "resize-none")}
-          placeholder="Tell us about your project..."
+          placeholder={labels.messagePlaceholder}
         />
       </div>
       <button
@@ -85,13 +90,13 @@ export default function ContactForm() {
           transitions.base,
         )}
       >
-        {status === 'submitting' ? 'Sending...' : 'Send Inquiry'}
+        {status === 'submitting' ? labels.submitting : labels.submit}
       </button>
       {status === 'success' && (
-        <p className={cn("text-center", colors.success)}>Message sent successfully!</p>
+        <p className={cn("text-center", colors.success)}>{labels.success}</p>
       )}
       {status === 'error' && (
-        <p className={cn("text-center", colors.danger)}>Failed to send message. Please try again.</p>
+        <p className={cn("text-center", colors.danger)}>{labels.error}</p>
       )}
     </form>
   );

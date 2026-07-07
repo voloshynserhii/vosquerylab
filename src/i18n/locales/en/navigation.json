@@ -1,0 +1,10 @@
+{
+  "items": [
+    { "href": "/services", "label": "Services" },
+    { "href": "/case-studies", "label": "Case Studies" },
+    { "href": "/blog", "label": "Blog" },
+    { "href": "/#contact", "label": "About" }
+  ],
+  "contact": "Contact Us",
+  "language": "Language"
+}

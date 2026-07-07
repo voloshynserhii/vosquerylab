@@ -1,0 +1,100 @@
+{
+  "site": {
+    "title": "Vosquery Lab - разработка AI-решений и автоматизация",
+    "description": "Vosquery Lab разрабатывает AI-решения: AI-агентов, LLM-приложения, RAG-системы, MCP-интеграции, автоматизацию процессов и кастомное AI-ПО.",
+    "keywords": [
+      "разработка AI-решений",
+      "AI-агенты для бизнеса",
+      "AI автоматизация",
+      "разработка RAG",
+      "интеграция LLM",
+      "MCP интеграции",
+      "OpenAI интеграция",
+      "AI консалтинг"
+    ],
+    "knowsAbout": [
+      "AI Engineering",
+      "AI Agents",
+      "LLM",
+      "RAG",
+      "MCP",
+      "AI Automation",
+      "React",
+      "Next.js"
+    ]
+  },
+  "pages": {
+    "home": {
+      "title": "Vosquery Lab - разработка AI-решений и автоматизация",
+      "description": "Vosquery Lab разрабатывает AI-решения: AI-агентов, LLM-приложения, RAG-системы, MCP-интеграции, автоматизацию процессов и кастомное AI-ПО.",
+      "keywords": [
+        "разработка AI-решений",
+        "AI-агенты для бизнеса",
+        "AI автоматизация",
+        "разработка RAG",
+        "интеграция LLM",
+        "MCP интеграции",
+        "OpenAI интеграция",
+        "AI консалтинг"
+      ],
+      "openGraphTitle": "Vosquery Lab - разработка AI-решений и автоматизация | Vosquery Lab",
+      "openGraphDescription": "Vosquery Lab разрабатывает AI-решения: AI-агентов, LLM-приложения, RAG-системы, MCP-интеграции, автоматизацию процессов и кастомное AI-ПО.",
+      "twitterTitle": "Vosquery Lab - разработка AI-решений и автоматизация",
+      "twitterDescription": "Vosquery Lab разрабатывает AI-решения: AI-агентов, LLM-приложения, RAG-системы, MCP-интеграции, автоматизацию процессов и кастомное AI-ПО."
+    },
+    "services": {
+      "title": "Разработка AI-решений",
+      "description": "Разработка AI-решений от Vosquery Lab: AI-агенты, RAG, LLM-интеграции, MCP, автоматизация и кастомное AI-ПО для B2B-команд.",
+      "keywords": [
+        "разработка AI-решений",
+        "AI-агенты для бизнеса",
+        "AI автоматизация",
+        "разработка RAG",
+        "интеграция LLM",
+        "MCP интеграции",
+        "OpenAI интеграция",
+        "AI консалтинг"
+      ],
+      "openGraphTitle": "Разработка AI-решений | Vosquery Lab",
+      "openGraphDescription": "Разработка AI-решений от Vosquery Lab: AI-агенты, RAG, LLM-интеграции, MCP, автоматизация и кастомное AI-ПО для B2B-команд.",
+      "twitterTitle": "Разработка AI-решений",
+      "twitterDescription": "Разработка AI-решений от Vosquery Lab: AI-агенты, RAG, LLM-интеграции, MCP, автоматизация и кастомное AI-ПО для B2B-команд."
+    },
+    "blog": {
+      "title": "Блог об AI-разработке",
+      "description": "Блог об AI-разработке: практические материалы о RAG, AI agents, MCP, LLM-интеграциях и AI-автоматизации для продуктовых команд.",
+      "keywords": [
+        "разработка AI-решений",
+        "AI-агенты для бизнеса",
+        "AI автоматизация",
+        "разработка RAG",
+        "интеграция LLM",
+        "MCP интеграции",
+        "OpenAI интеграция",
+        "AI консалтинг"
+      ],
+      "openGraphTitle": "Блог об AI-разработке | Vosquery Lab",
+      "openGraphDescription": "Блог об AI-разработке: практические материалы о RAG, AI agents, MCP, LLM-интеграциях и AI-автоматизации для продуктовых команд.",
+      "twitterTitle": "Блог об AI-разработке",
+      "twitterDescription": "Блог об AI-разработке: практические материалы о RAG, AI agents, MCP, LLM-интеграциях и AI-автоматизации для продуктовых команд."
+    },
+    "caseStudies": {
+      "title": "Кейсы AI-продуктов",
+      "description": "Кейсы AI-продуктов Vosquery Lab: интеграции, React AI apps, Document AI, автоматизация и production-ready AI-решения.",
+      "keywords": [
+        "разработка AI-решений",
+        "AI-агенты для бизнеса",
+        "AI автоматизация",
+        "разработка RAG",
+        "интеграция LLM",
+        "MCP интеграции",
+        "OpenAI интеграция",
+        "AI консалтинг"
+      ],
+      "openGraphTitle": "Кейсы AI-продуктов | Vosquery Lab",
+      "openGraphDescription": "Кейсы AI-продуктов Vosquery Lab: интеграции, React AI apps, Document AI, автоматизация и production-ready AI-решения.",
+      "twitterTitle": "Кейсы AI-продуктов",
+      "twitterDescription": "Кейсы AI-продуктов Vosquery Lab: интеграции, React AI apps, Document AI, автоматизация и production-ready AI-решения."
+    }
+  }
+}

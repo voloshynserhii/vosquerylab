@@ -5,4 +5,6 @@ export const gradients = {
   darkSection: "bg-[radial-gradient(circle_at_90%_20%,rgba(124,58,237,0.22),transparent_32%),linear-gradient(180deg,#050816_0%,#081024_100%)]",
   cardGlow: "bg-[radial-gradient(circle_at_20%_0%,rgba(168,85,247,0.16),transparent_35%),linear-gradient(180deg,rgba(255,255,255,0.96),rgba(255,255,255,0.9))]",
   cta: "bg-[linear-gradient(135deg,rgba(20,24,56,0.92),rgba(32,20,74,0.88))]",
+  premiumCard: "bg-[radial-gradient(circle_at_18%_0%,rgba(124,58,237,0.18),transparent_34%),linear-gradient(180deg,rgba(255,255,255,0.075),rgba(255,255,255,0.035))]",
+  featuredCard: "bg-[radial-gradient(circle_at_84%_18%,rgba(168,85,247,0.26),transparent_34%),linear-gradient(135deg,rgba(16,24,54,0.94),rgba(20,12,46,0.94))]",
 } as const;

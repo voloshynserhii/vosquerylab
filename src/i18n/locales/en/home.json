@@ -1,0 +1,79 @@
+{
+  "hero": {
+    "eyebrow": "AI Engineering Studio",
+    "titleBefore": "AI Engineering and Automation for",
+    "titleHighlight": "B2B Products",
+    "description": "Vosquery Lab designs and builds AI agents, LLM applications, RAG systems, MCP integrations and custom AI automation for companies that need production-ready AI software.",
+    "primaryCta": "Discuss an AI Project",
+    "secondaryCta": "Explore Services",
+    "features": ["Production-Ready AI Solutions", "End-to-End Development", "Modern Stack & Best Practices", "Scalable & Secure"],
+    "partnersLabel": "Technologies & Partners",
+    "partners": ["OpenAI", "Anthropic", "Google", "LangChain", "Next.js", "React", "PostgreSQL", "Docker", "AWS"],
+    "illustrationLabels": ["LLM Applications", "RAG Systems", "AI Agents", "MCP Integrations", "AI Automation"]
+  },
+  "services": {
+    "eyebrow": "What We Do",
+    "title": "AI Services",
+    "items": [
+      { "title": "AI Engineering", "href": "/services/ai-engineering", "description": "Production-ready LLM applications, AI agents, RAG systems and backend AI workflows designed around real business constraints." },
+      { "title": "AI Automation", "href": "/services/ai-workflow-automation", "description": "Workflow automation that connects AI models with APIs, documents, CRMs, support tools and internal business systems." },
+      { "title": "React AI Products", "href": "/services/react-ai-applications", "description": "AI-powered web and mobile products built with Next.js, React and React Native, including chat, voice, document and dashboard interfaces." }
+    ]
+  },
+  "seo": {
+    "eyebrow": "AI engineering studio",
+    "title": "Practical AI systems for real business workflows",
+    "description": "Vosquery Lab helps companies move from AI experiments to useful software. We focus on business workflows, model behavior, data access, integrations, user experience and maintainable engineering.",
+    "primaryCta": "Explore AI services",
+    "secondaryCta": "View case studies",
+    "facts": [
+      { "title": "Who Vosquery Lab is", "text": "Vosquery Lab is an AI engineering and AI automation studio based in Spain. The studio builds AI agents, LLM applications, RAG systems, MCP integrations and custom AI software for startups and B2B teams." },
+      { "title": "Ideal clients", "text": "Ideal clients are founders, product teams and operations teams that need practical AI features, AI MVPs, internal automation, knowledge-base AI or AI integrations inside existing software." },
+      { "title": "Delivery approach", "text": "Projects start with discovery, workflow mapping and architecture. Implementation then focuses on prototypes, production code, integrations, testing, deployment and iteration from real user feedback." },
+      { "title": "Technology stack", "text": "The stack includes OpenAI, Anthropic Claude, Google Gemini, Next.js, React, React Native, Node.js, vector databases, RAG pipelines, API integrations and Model Context Protocol." }
+    ]
+  },
+  "clients": {
+    "eyebrow": "Featured Work",
+    "title": "AI Products and Client Work",
+    "viewAll": "View All Projects",
+    "ctaTitle": "Ready to build your next AI-powered product?",
+    "ctaText": "Let's turn your idea into a production-ready AI solution that drives real business value.",
+    "primaryCta": "Discuss Your Project",
+    "secondaryCta": "Contact Us",
+    "items": [
+      { "id": "navifit", "name": "NaviFit", "category": "Web Application & Mobile App", "description": "A comprehensive fitness platform offering personalized meal plans and nutrition tracking. Built with modern web technologies for a seamless user experience.", "image": "https://navifit.eu/images/app-preview.png", "tags": ["Next.js", "React Native", "Fitness", "Health", "PWA"], "link": "https://navifit.eu" },
+      { "id": "pani-yulya-kids", "name": "Pani Yulya Kids", "category": "E-commerce", "description": "A joyful entertainment platform where fans can enjoy exclusive music by Пані Юля, order personalized video greetings, and shop for toys featured in her YouTube videos. Designed for fun, creativity, and memorable experiences for children and families.", "image": "https://pani-yulya-shop.vercel.app/_next/image?url=%2Fimages%2Fhero_image.jpeg&w=1200&q=75", "tags": ["E-commerce", "Next.js", "UI/UX", "Kids", "Music"], "link": "https://pani-yulya.kids" },
+      { "id": "pine-hotel", "name": "A Hotel in the Mountains", "category": "Hospitality", "description": "A luxury hotel experience with modern amenities and personalized service. Features a stunning location and exceptional guest satisfaction.", "image": "https://pinehotel.vercel.app/_next/image?url=%2Fimages%2Fhero2.jpg&w=3840&q=75", "tags": ["Next.js", "React", "Hotel", "Hospitality", "Luxury", "Travel", "Tourism"], "link": "https://pinehotel.vercel.app" },
+      { "id": "castellon-cycling-tours", "name": "Cycling Tours", "category": "Fitness & Health", "description": "It is a company that offers cycling tours and provides accomodation in own hotel on countryside.", "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=2070", "tags": ["Next.js", "React", "Cycling", "Travel", "Tourism"], "link": "https://tours-ecru-seven.vercel.app/" }
+    ],
+    "mobileApps": [
+      { "id": "taluna-stories", "name": "Taluna Stories", "category": "AI Storytelling Mobile App", "description": "A magical story builder where families choose a child, companion, and world to create personalized adventures.", "image": "/assets/clients/taluna.jpeg", "tags": ["React Native", "AI", "Kids", "Subscriptions"], "link": "https://apps.apple.com/app/taluna-bedtime-magic/id6770110481?l=en-GB" },
+      { "id": "epik-childhood-book", "name": "Childhood Book", "category": "Family Memories Mobile App", "description": "A warm memory journal that turns saved family moments, highlights, and milestones into a previewable childhood book.", "image": "/assets/clients/memory-box.jpeg", "tags": ["Mobile UX", "Memories", "Family", "Book Builder"], "link": "#" }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Ready to build something amazing?",
+    "description": "Let's discuss your project and see how we can help you achieve your AI engineering goals.",
+    "details": [
+      { "title": "Email Us", "value": "vosquery@gmail.com", "href": "mailto:hello@vosquery.lab" },
+      { "title": "Visit Us", "value": "Carrer Apostol Santiago, 36\n12560 Benicassim, Community of Valencia, Spain" },
+      { "title": "Call Us", "value": "+34 614 026 351", "href": "tel:+34614026351" }
+    ],
+    "form": {
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "namePlaceholder": "John Doe",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "emailPlaceholder": "john@example.com",
+      "messagePlaceholder": "Tell us about your project...",
+      "submit": "Send Inquiry",
+      "submitting": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
+    }
+  }
+}

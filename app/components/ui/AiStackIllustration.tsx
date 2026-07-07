@@ -4,15 +4,15 @@ import { motion } from "framer-motion";
 import { Bot, BrainCircuit, Database, GitBranch, Network, Sparkles } from "lucide-react";
 import { cn, colors, gradients, radius, shadows, typography } from "../../../src/theme";
 
-const labels = [
-  { text: "LLM Applications", className: "left-2 top-10 -rotate-6", delay: 0 },
-  { text: "RAG Systems", className: "right-2 top-16 rotate-6", delay: 0.3 },
-  { text: "AI Agents", className: "left-6 top-36 -rotate-3", delay: 0.15 },
-  { text: "MCP Integrations", className: "right-0 top-44 rotate-4", delay: 0.45 },
-  { text: "AI Automation", className: "right-10 bottom-20 rotate-6", delay: 0.25 },
+const labelLayout = [
+  { className: "left-2 top-10 -rotate-6", delay: 0 },
+  { className: "right-2 top-16 rotate-6", delay: 0.3 },
+  { className: "left-6 top-36 -rotate-3", delay: 0.15 },
+  { className: "right-0 top-44 rotate-4", delay: 0.45 },
+  { className: "right-10 bottom-20 rotate-6", delay: 0.25 },
 ];
 
-export default function AiStackIllustration() {
+export default function AiStackIllustration({ labels }: { labels: string[] }) {
   return (
     <div className="relative min-h-[460px] w-full min-w-0 overflow-hidden lg:min-h-[520px]">
       <div className={cn("absolute left-1/2 top-1/2 h-80 w-80 -translate-x-1/2 -translate-y-1/2 blur-3xl", colors.glowPurple)} />
@@ -21,9 +21,12 @@ export default function AiStackIllustration() {
         animate={{ backgroundPosition: ["0px 0px", "64px 64px"] }}
         transition={{ duration: 18, ease: "linear", repeat: Infinity }}
       />
-      {labels.map((label) => (
+      {labels.map((text, index) => {
+        const label = labelLayout[index % labelLayout.length];
+
+        return (
         <motion.div
-          key={label.text}
+          key={text}
           className={cn(
             "absolute z-20 border border-violet-300/35 bg-[#101838]/70 px-6 py-4 text-slate-200 backdrop-blur-md",
             typography.bodySmall,
@@ -34,9 +37,10 @@ export default function AiStackIllustration() {
           animate={{ y: [0, -8, 0], opacity: [0.82, 1, 0.82] }}
           transition={{ duration: 5.5, delay: label.delay, ease: "easeInOut", repeat: Infinity }}
         >
-          {label.text}
+          {text}
         </motion.div>
-      ))}
+      );
+      })}
 
       <motion.div
         className="absolute left-1/2 top-1/2 h-[320px] w-[360px] -translate-x-1/2 -translate-y-[42%] [transform-style:preserve-3d] lg:h-[360px] lg:w-[430px]"

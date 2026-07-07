@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "href": "/services",
+      "label": "Послуги"
+    },
+    {
+      "href": "/case-studies",
+      "label": "Кейси"
+    },
+    {
+      "href": "/blog",
+      "label": "Блог"
+    },
+    {
+      "href": "/#contact",
+      "label": "Про нас"
+    }
+  ],
+  "contact": "Зв’язатися",
+  "language": "Мова"
+}

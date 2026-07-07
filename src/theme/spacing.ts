@@ -23,6 +23,7 @@ export const space = {
   card: "p-8",
   cardCompact: "p-6",
   stack16: "gap-4",
+  stack12: "gap-3",
   stack20: "gap-5",
   stack24: "gap-6",
   stack32: "gap-8",

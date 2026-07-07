@@ -1,0 +1,100 @@
+{
+  "site": {
+    "title": "Vosquery Lab - розробка AI-рішень та автоматизація",
+    "description": "Vosquery Lab розробляє AI-рішення: AI-агентів, LLM-застосунки, RAG-системи, MCP-інтеграції, автоматизацію процесів і кастомне AI-ПЗ.",
+    "keywords": [
+      "розробка AI-рішень",
+      "AI-агенти для бізнесу",
+      "AI-автоматизація",
+      "розробка RAG",
+      "інтеграція LLM",
+      "MCP інтеграції",
+      "OpenAI інтеграція",
+      "AI консалтинг"
+    ],
+    "knowsAbout": [
+      "AI Engineering",
+      "AI Agents",
+      "LLM",
+      "RAG",
+      "MCP",
+      "AI Automation",
+      "React",
+      "Next.js"
+    ]
+  },
+  "pages": {
+    "home": {
+      "title": "Vosquery Lab - розробка AI-рішень та автоматизація",
+      "description": "Vosquery Lab розробляє AI-рішення: AI-агентів, LLM-застосунки, RAG-системи, MCP-інтеграції, автоматизацію процесів і кастомне AI-ПЗ.",
+      "keywords": [
+        "розробка AI-рішень",
+        "AI-агенти для бізнесу",
+        "AI-автоматизація",
+        "розробка RAG",
+        "інтеграція LLM",
+        "MCP інтеграції",
+        "OpenAI інтеграція",
+        "AI консалтинг"
+      ],
+      "openGraphTitle": "Vosquery Lab - розробка AI-рішень та автоматизація | Vosquery Lab",
+      "openGraphDescription": "Vosquery Lab розробляє AI-рішення: AI-агентів, LLM-застосунки, RAG-системи, MCP-інтеграції, автоматизацію процесів і кастомне AI-ПЗ.",
+      "twitterTitle": "Vosquery Lab - розробка AI-рішень та автоматизація",
+      "twitterDescription": "Vosquery Lab розробляє AI-рішення: AI-агентів, LLM-застосунки, RAG-системи, MCP-інтеграції, автоматизацію процесів і кастомне AI-ПЗ."
+    },
+    "services": {
+      "title": "Розробка AI-рішень",
+      "description": "Розробка AI-рішень від Vosquery Lab: AI-агенти, RAG, LLM-інтеграції, MCP, автоматизація та кастомне AI-ПЗ.",
+      "keywords": [
+        "розробка AI-рішень",
+        "AI-агенти для бізнесу",
+        "AI-автоматизація",
+        "розробка RAG",
+        "інтеграція LLM",
+        "MCP інтеграції",
+        "OpenAI інтеграція",
+        "AI консалтинг"
+      ],
+      "openGraphTitle": "Розробка AI-рішень | Vosquery Lab",
+      "openGraphDescription": "Розробка AI-рішень від Vosquery Lab: AI-агенти, RAG, LLM-інтеграції, MCP, автоматизація та кастомне AI-ПЗ.",
+      "twitterTitle": "Розробка AI-рішень",
+      "twitterDescription": "Розробка AI-рішень від Vosquery Lab: AI-агенти, RAG, LLM-інтеграції, MCP, автоматизація та кастомне AI-ПЗ."
+    },
+    "blog": {
+      "title": "Блог про AI-розробку",
+      "description": "Блог про AI-розробку: практичні матеріали про RAG, AI agents, MCP, LLM інтеграції та AI-автоматизацію.",
+      "keywords": [
+        "розробка AI-рішень",
+        "AI-агенти для бізнесу",
+        "AI-автоматизація",
+        "розробка RAG",
+        "інтеграція LLM",
+        "MCP інтеграції",
+        "OpenAI інтеграція",
+        "AI консалтинг"
+      ],
+      "openGraphTitle": "Блог про AI-розробку | Vosquery Lab",
+      "openGraphDescription": "Блог про AI-розробку: практичні матеріали про RAG, AI agents, MCP, LLM інтеграції та AI-автоматизацію.",
+      "twitterTitle": "Блог про AI-розробку",
+      "twitterDescription": "Блог про AI-розробку: практичні матеріали про RAG, AI agents, MCP, LLM інтеграції та AI-автоматизацію."
+    },
+    "caseStudies": {
+      "title": "Кейси AI-продуктів",
+      "description": "Кейси AI-продуктів Vosquery Lab: продукти, інтеграції, React AI apps, Document AI та автоматизація.",
+      "keywords": [
+        "розробка AI-рішень",
+        "AI-агенти для бізнесу",
+        "AI-автоматизація",
+        "розробка RAG",
+        "інтеграція LLM",
+        "MCP інтеграції",
+        "OpenAI інтеграція",
+        "AI консалтинг"
+      ],
+      "openGraphTitle": "Кейси AI-продуктів | Vosquery Lab",
+      "openGraphDescription": "Кейси AI-продуктів Vosquery Lab: продукти, інтеграції, React AI apps, Document AI та автоматизація.",
+      "twitterTitle": "Кейси AI-продуктів",
+      "twitterDescription": "Кейси AI-продуктів Vosquery Lab: продукти, інтеграції, React AI apps, Document AI та автоматизація."
+    }
+  }
+}

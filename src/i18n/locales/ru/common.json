@@ -1,0 +1,19 @@
+{
+  "brand": "VosQuery Lab",
+  "home": "Главная",
+  "featured": "Избранное",
+  "summary": "Кратко",
+  "faq": "Частые вопросы",
+  "relatedServices": "Связанные услуги",
+  "relatedCaseStudies": "Связанные кейсы",
+  "learnMore": "Подробнее",
+  "readGuide": "Читать гайд",
+  "viewCaseStudy": "Смотреть кейс",
+  "learnAboutService": "Узнать об услуге",
+  "serviceVisualAlt": "Визуализация услуги {title}",
+  "projectPreviewAlt": "Превью проекта {title}",
+  "notFound": {
+    "title": "Страница не найдена",
+    "description": "Страница, которую вы ищете, не существует."
+  }
+}

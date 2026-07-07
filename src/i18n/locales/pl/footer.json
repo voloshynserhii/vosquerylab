@@ -1,0 +1,21 @@
+{
+  "rights": "Wszelkie prawa zastrzeżone.",
+  "links": [
+    {
+      "href": "/services",
+      "label": "Usługi AI"
+    },
+    {
+      "href": "/blog",
+      "label": "Blog AI engineering"
+    },
+    {
+      "href": "/case-studies",
+      "label": "Case studies"
+    },
+    {
+      "href": "/#contact",
+      "label": "Kontakt"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "brand": "VosQuery Lab",
+  "home": "Головна",
+  "featured": "Вибране",
+  "summary": "Коротко",
+  "faq": "Поширені запитання",
+  "relatedServices": "Пов’язані послуги",
+  "relatedCaseStudies": "Пов’язані кейси",
+  "learnMore": "Дізнатися більше",
+  "readGuide": "Читати гайд",
+  "viewCaseStudy": "Переглянути кейс",
+  "learnAboutService": "Дізнатися про послугу",
+  "serviceVisualAlt": "Візуалізація послуги {title}",
+  "projectPreviewAlt": "Прев’ю проєкту {title}",
+  "notFound": {
+    "title": "Сторінку не знайдено",
+    "description": "Сторінки, яку ви шукаєте, не існує."
+  }
+}

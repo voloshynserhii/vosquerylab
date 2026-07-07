@@ -1,0 +1,19 @@
+{
+  "brand": "VosQuery Lab",
+  "home": "Home",
+  "featured": "Featured",
+  "summary": "Summary",
+  "faq": "Frequently asked questions",
+  "relatedServices": "Related services",
+  "relatedCaseStudies": "Related case studies",
+  "learnMore": "Learn more",
+  "readGuide": "Read guide",
+  "viewCaseStudy": "View case study",
+  "learnAboutService": "Learn about service",
+  "serviceVisualAlt": "{title} service visual",
+  "projectPreviewAlt": "{title} project preview",
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for does not exist."
+  }
+}

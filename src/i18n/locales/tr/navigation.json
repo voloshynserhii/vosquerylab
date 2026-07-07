@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "href": "/services",
+      "label": "Hizmetler"
+    },
+    {
+      "href": "/case-studies",
+      "label": "Örnek çalışmalar"
+    },
+    {
+      "href": "/blog",
+      "label": "Blog"
+    },
+    {
+      "href": "/#contact",
+      "label": "Hakkımızda"
+    }
+  ],
+  "contact": "İletişim",
+  "language": "Dil"
+}

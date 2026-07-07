@@ -1,0 +1,35 @@
+{
+  "page": {
+    "eyebrow": "БЛОГ ПРО AI-РОЗРОБКУ",
+    "title": "Блог про AI-розробку",
+    "subtitle": "Практичні матеріали про RAG, AI agents, MCP, vector databases, function calling, workflow automation і LLM-застосунки у production.",
+    "badges": [
+      "RAG",
+      "AI-агенти",
+      "MCP",
+      "Векторні бази",
+      "Function calling",
+      "Автоматизація процесів"
+    ],
+    "featuredEyebrow": "Вибраний гайд",
+    "featuredCta": "Читати вибраний гайд",
+    "filters": [
+      "Усе",
+      "RAG",
+      "Агенти",
+      "MCP",
+      "Автоматизація",
+      "Інтеграції"
+    ],
+    "ctaTitle": "Потрібна допомога з AI у продукті?",
+    "primaryCta": "Обговорити AI-проєкт",
+    "secondaryCta": "Переглянути кейси",
+    "minRead": "хв читання"
+  },
+  "detail": {
+    "eyebrow": "Гайд з AI-розробки",
+    "searchIntent": "Пошуковий намір",
+    "ctaTitle": "Потрібно це впровадити?",
+    "ctaText": "Vosquery Lab допоможе перетворити цю концепцію на робочий AI-продукт, workflow або інтеграцію."
+  }
+}

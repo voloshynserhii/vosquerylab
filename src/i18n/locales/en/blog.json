@@ -1,0 +1,35 @@
+{
+  "page": {
+    "eyebrow": "TECHNICAL BLOG",
+    "title": "AI Engineering Blog",
+    "subtitle": "Learn how RAG, AI agents, MCP integrations, vector databases, function calling, workflow automation and LLM applications work in production software.",
+    "badges": [
+      "RAG",
+      "AI Agents",
+      "MCP",
+      "Vector Databases",
+      "Function Calling",
+      "Workflow Automation"
+    ],
+    "featuredEyebrow": "Featured Guide",
+    "featuredCta": "Read featured guide",
+    "filters": [
+      "All",
+      "RAG",
+      "Agents",
+      "MCP",
+      "Automation",
+      "Integrations"
+    ],
+    "ctaTitle": "Need help applying AI in your product?",
+    "primaryCta": "Discuss an AI Project",
+    "secondaryCta": "View Case Studies",
+    "minRead": "min read"
+  },
+  "detail": {
+    "eyebrow": "AI engineering guide",
+    "searchIntent": "Search intent",
+    "ctaTitle": "Need this implemented?",
+    "ctaText": "Vosquery Lab can help turn this concept into a working AI product, workflow or integration."
+  }
+}

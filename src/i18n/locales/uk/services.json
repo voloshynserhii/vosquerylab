@@ -1,0 +1,188 @@
+{
+  "page": {
+    "eyebrow": "РОЗРОБКА AI-РІШЕНЬ",
+    "title": "Розробка AI-рішень",
+    "subtitle": "Vosquery Lab створює production-ready AI-системи: agents, RAG, LLM applications, інтеграції, workflow automation і AI-продукти з підтримуваною архітектурою.",
+    "badges": [
+      "AI Agents",
+      "RAG",
+      "LLM",
+      "MCP",
+      "AI Automation"
+    ],
+    "featuredEyebrow": "Основна послуга",
+    "featuredCta": "Переглянути AI engineering",
+    "filters": [
+      "Усі послуги",
+      "AI-продукти",
+      "Автоматизація",
+      "Інтеграції",
+      "RAG",
+      "Frontend AI"
+    ],
+    "ctaTitle": "Потрібна production-ready AI-система?",
+    "primaryCta": "Обговорити AI-проєкт",
+    "secondaryCta": "Переглянути кейси",
+    "categories": {
+      "retrieval": "Retrieval",
+      "integration": "Інтеграція",
+      "automation": "Автоматизація",
+      "product": "Продукт",
+      "engineering": "AI-розробка"
+    }
+  },
+  "items": {
+    "ai-engineering": {
+      "title": "AI-розробка",
+      "shortTitle": "AI-розробка",
+      "metaTitle": "AI-розробка | Vosquery Lab",
+      "metaDescription": "AI-розробка для B2B-продуктів: LLM applications, AI agents, RAG, інтеграції та backend workflows з архітектурою, готовою до production.",
+      "searchIntent": "Компанії, які шукають AI-розробка з наміром комерційного впровадження."
+    },
+    "ai-agents": {
+      "title": "AI-агенти",
+      "shortTitle": "AI-агенти",
+      "metaTitle": "AI-агенти | Vosquery Lab",
+      "metaDescription": "Проєктування AI-агентів, які використовують tools, retrieval, API та guardrails для виконання реальних бізнес-процесів.",
+      "searchIntent": "Компанії, які шукають AI-агенти з наміром комерційного впровадження."
+    },
+    "custom-ai-development": {
+      "title": "Кастомна AI-розробка",
+      "shortTitle": "Кастомна AI-розробка",
+      "metaTitle": "Кастомна AI-розробка | Vosquery Lab",
+      "metaDescription": "Кастомна AI-розробка для команд, яким потрібні практична AI-розробка, інтеграції, автоматизація та production-ready впровадження без зайвої складності.",
+      "searchIntent": "Компанії, які шукають Кастомна AI-розробка з наміром комерційного впровадження."
+    },
+    "llm-integration": {
+      "title": "Інтеграція LLM",
+      "shortTitle": "Інтеграція LLM",
+      "metaTitle": "Інтеграція LLM | Vosquery Lab",
+      "metaDescription": "Інтеграція LLM для команд, яким потрібні практична AI-розробка, інтеграції, автоматизація та production-ready впровадження без зайвої складності.",
+      "searchIntent": "Компанії, які шукають Інтеграція LLM з наміром комерційного впровадження."
+    },
+    "openai-integration": {
+      "title": "Інтеграція OpenAI",
+      "shortTitle": "Інтеграція OpenAI",
+      "metaTitle": "Інтеграція OpenAI | Vosquery Lab",
+      "metaDescription": "Інтеграція OpenAI для команд, яким потрібні практична AI-розробка, інтеграції, автоматизація та production-ready впровадження без зайвої складності.",
+      "searchIntent": "Компанії, які шукають Інтеграція OpenAI з наміром комерційного впровадження."
+    },
+    "anthropic-integration": {
+      "title": "Інтеграція Anthropic Claude",
+      "shortTitle": "Інтеграція Anthropic Claude",
+      "metaTitle": "Інтеграція Anthropic Claude | Vosquery Lab",
+      "metaDescription": "Інтеграція Anthropic Claude для команд, яким потрібні практична AI-розробка, інтеграції, автоматизація та production-ready впровадження без зайвої складності.",
+      "searchIntent": "Компанії, які шукають Інтеграція Anthropic Claude з наміром комерційного впровадження."
+    },
+    "google-gemini-integration": {
+      "title": "Інтеграція Google Gemini",
+      "shortTitle": "Інтеграція Google Gemini",
+      "metaTitle": "Інтеграція Google Gemini | Vosquery Lab",
+      "metaDescription": "Інтеграція Google Gemini для команд, яким потрібні практична AI-розробка, інтеграції, автоматизація та production-ready впровадження без зайвої складності.",
+      "searchIntent": "Компанії, які шукають Інтеграція Google Gemini з наміром комерційного впровадження."
+    },
+    "ai-chatbots": {
+      "title": "AI-чатботи",
+      "shortTitle": "AI-чатботи",
+      "metaTitle": "AI-чатботи | Vosquery Lab",
+      "metaDescription": "AI-чатботи для команд, яким потрібні практична AI-розробка, інтеграції, автоматизація та production-ready впровадження без зайвої складності.",
+      "searchIntent": "Компанії, які шукають AI-чатботи з наміром комерційного впровадження."
+    },
+    "ai-voice-assistants": {
+      "title": "Голосові AI-асистенти",
+      "shortTitle": "Голосові AI-асистенти",
+      "metaTitle": "Голосові AI-асистенти | Vosquery Lab",
+      "metaDescription": "Голосові AI-асистенти для команд, яким потрібні практична AI-розробка, інтеграції, автоматизація та production-ready впровадження без зайвої складності.",
+      "searchIntent": "Компанії, які шукають Голосові AI-асистенти з наміром комерційного впровадження."
+    },
+    "rag-development": {
+      "title": "Розробка RAG",
+      "shortTitle": "Розробка RAG",
+      "metaTitle": "Розробка RAG | Vosquery Lab",
+      "metaDescription": "RAG-системи для точних відповідей з приватних документів, knowledge base, support-контенту та внутрішніх даних.",
+      "searchIntent": "Компанії, які шукають Розробка RAG з наміром комерційного впровадження."
+    },
+    "vector-databases": {
+      "title": "Векторні бази даних",
+      "shortTitle": "Векторні бази даних",
+      "metaTitle": "Векторні бази даних | Vosquery Lab",
+      "metaDescription": "Векторні бази даних для команд, яким потрібні практична AI-розробка, інтеграції, автоматизація та production-ready впровадження без зайвої складності.",
+      "searchIntent": "Компанії, які шукають Векторні бази даних з наміром комерційного впровадження."
+    },
+    "mcp-integrations": {
+      "title": "MCP-інтеграції",
+      "shortTitle": "MCP-інтеграції",
+      "metaTitle": "MCP-інтеграції | Vosquery Lab",
+      "metaDescription": "MCP-інтеграції для підключення AI-асистентів до бізнес-інструментів, API, файлів і внутрішніх систем.",
+      "searchIntent": "Компанії, які шукають MCP-інтеграції з наміром комерційного впровадження."
+    },
+    "ai-workflow-automation": {
+      "title": "AI-автоматизація workflow",
+      "shortTitle": "AI-автоматизація workflow",
+      "metaTitle": "AI-автоматизація workflow | Vosquery Lab",
+      "metaDescription": "AI-автоматизація повторюваних операцій: документи, routing, notifications, API actions і human review там, де це потрібно.",
+      "searchIntent": "Компанії, які шукають AI-автоматизація workflow з наміром комерційного впровадження."
+    },
+    "ai-consulting": {
+      "title": "AI-консалтинг",
+      "shortTitle": "AI-консалтинг",
+      "metaTitle": "AI-консалтинг | Vosquery Lab",
+      "metaDescription": "AI-консалтинг для команд, яким потрібні практична AI-розробка, інтеграції, автоматизація та production-ready впровадження без зайвої складності.",
+      "searchIntent": "Компанії, які шукають AI-консалтинг з наміром комерційного впровадження."
+    },
+    "react-ai-applications": {
+      "title": "React AI-застосунки",
+      "shortTitle": "React AI-застосунки",
+      "metaTitle": "React AI-застосунки | Vosquery Lab",
+      "metaDescription": "React AI-застосунки для команд, яким потрібні практична AI-розробка, інтеграції, автоматизація та production-ready впровадження без зайвої складності.",
+      "searchIntent": "Компанії, які шукають React AI-застосунки з наміром комерційного впровадження."
+    },
+    "react-native-ai-apps": {
+      "title": "React Native AI apps",
+      "shortTitle": "React Native AI apps",
+      "metaTitle": "React Native AI apps | Vosquery Lab",
+      "metaDescription": "React Native AI apps для команд, яким потрібні практична AI-розробка, інтеграції, автоматизація та production-ready впровадження без зайвої складності.",
+      "searchIntent": "Компанії, які шукають React Native AI apps з наміром комерційного впровадження."
+    },
+    "backend-ai-systems": {
+      "title": "Backend AI-системи",
+      "shortTitle": "Backend AI-системи",
+      "metaTitle": "Backend AI-системи | Vosquery Lab",
+      "metaDescription": "Backend AI-системи для команд, яким потрібні практична AI-розробка, інтеграції, автоматизація та production-ready впровадження без зайвої складності.",
+      "searchIntent": "Компанії, які шукають Backend AI-системи з наміром комерційного впровадження."
+    },
+    "document-ai": {
+      "title": "Document AI",
+      "shortTitle": "Document AI",
+      "metaTitle": "Document AI | Vosquery Lab",
+      "metaDescription": "Document AI для команд, яким потрібні практична AI-розробка, інтеграції, автоматизація та production-ready впровадження без зайвої складності.",
+      "searchIntent": "Компанії, які шукають Document AI з наміром комерційного впровадження."
+    },
+    "knowledge-base-ai": {
+      "title": "AI для баз знань",
+      "shortTitle": "AI для баз знань",
+      "metaTitle": "AI для баз знань | Vosquery Lab",
+      "metaDescription": "AI для баз знань для команд, яким потрібні практична AI-розробка, інтеграції, автоматизація та production-ready впровадження без зайвої складності.",
+      "searchIntent": "Компанії, які шукають AI для баз знань з наміром комерційного впровадження."
+    },
+    "enterprise-ai": {
+      "title": "Enterprise AI",
+      "shortTitle": "Enterprise AI",
+      "metaTitle": "Enterprise AI | Vosquery Lab",
+      "metaDescription": "Enterprise AI для команд, яким потрібні практична AI-розробка, інтеграції, автоматизація та production-ready впровадження без зайвої складності.",
+      "searchIntent": "Компанії, які шукають Enterprise AI з наміром комерційного впровадження."
+    }
+  },
+  "detail": {
+    "eyebrow": "AI-послуга",
+    "whoNeedsIt": "Кому це потрібно",
+    "problemsSolved": "Які бізнес-проблеми вирішує",
+    "benefits": "Переваги",
+    "technologies": "Технологічний стек",
+    "process": "Процес впровадження",
+    "timeline": "Типовий timeline",
+    "ctaTitle": "Спланувати AI-впровадження",
+    "ctaText": "Опишіть workflow, product feature або автоматизацію, яку хочете створити. Ми допоможемо визначити архітектуру та наступний крок реалізації.",
+    "summarySuffix": "На цій сторінці пояснюємо, кому потрібна послуга, які задачі вона вирішує, як Vosquery Lab її впроваджує і якого timeline очікувати."
+  }
+}

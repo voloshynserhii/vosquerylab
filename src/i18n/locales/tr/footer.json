@@ -1,0 +1,21 @@
+{
+  "rights": "Tüm hakları saklıdır.",
+  "links": [
+    {
+      "href": "/services",
+      "label": "Yapay zeka hizmetleri"
+    },
+    {
+      "href": "/blog",
+      "label": "AI engineering blog"
+    },
+    {
+      "href": "/case-studies",
+      "label": "Örnek çalışmalar"
+    },
+    {
+      "href": "/#contact",
+      "label": "İletişim"
+    }
+  ]
+}

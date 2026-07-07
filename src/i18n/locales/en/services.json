@@ -1,0 +1,188 @@
+{
+  "page": {
+    "eyebrow": "SERVICES",
+    "title": "AI Engineering Services",
+    "subtitle": "Vosquery Lab builds production AI systems for companies that need agents, RAG, LLM applications, workflow automation, integrations and AI product development with maintainable engineering.",
+    "badges": [
+      "AI Agents",
+      "RAG",
+      "LLM",
+      "MCP",
+      "AI Automation"
+    ],
+    "featuredEyebrow": "Core Service",
+    "featuredCta": "Explore core AI engineering",
+    "filters": [
+      "All Services",
+      "AI Products",
+      "Automation",
+      "Integrations",
+      "RAG",
+      "Frontend AI"
+    ],
+    "ctaTitle": "Need a production-ready AI system?",
+    "primaryCta": "Discuss an AI Project",
+    "secondaryCta": "View Case Studies",
+    "categories": {
+      "retrieval": "Retrieval",
+      "integration": "Integration",
+      "automation": "Automation",
+      "product": "Product",
+      "engineering": "AI Engineering"
+    }
+  },
+  "items": {
+    "ai-engineering": {
+      "title": "AI Engineering",
+      "shortTitle": "AI Engineering",
+      "metaTitle": "AI Engineering | Vosquery Lab",
+      "metaDescription": "AI Engineering for teams that need practical AI engineering, integrations, automation and production-ready implementation.",
+      "searchIntent": "Companies looking for AI Engineering with commercial implementation intent."
+    },
+    "ai-agents": {
+      "title": "AI Agents",
+      "shortTitle": "AI Agents",
+      "metaTitle": "AI Agents | Vosquery Lab",
+      "metaDescription": "AI Agents for teams that need practical AI engineering, integrations, automation and production-ready implementation.",
+      "searchIntent": "Companies looking for AI Agents with commercial implementation intent."
+    },
+    "custom-ai-development": {
+      "title": "Custom AI Development",
+      "shortTitle": "Custom AI Development",
+      "metaTitle": "Custom AI Development | Vosquery Lab",
+      "metaDescription": "Custom AI Development for teams that need practical AI engineering, integrations, automation and production-ready implementation.",
+      "searchIntent": "Companies looking for Custom AI Development with commercial implementation intent."
+    },
+    "llm-integration": {
+      "title": "LLM Integration",
+      "shortTitle": "LLM Integration",
+      "metaTitle": "LLM Integration | Vosquery Lab",
+      "metaDescription": "LLM Integration for teams that need practical AI engineering, integrations, automation and production-ready implementation.",
+      "searchIntent": "Companies looking for LLM Integration with commercial implementation intent."
+    },
+    "openai-integration": {
+      "title": "OpenAI Integration",
+      "shortTitle": "OpenAI Integration",
+      "metaTitle": "OpenAI Integration | Vosquery Lab",
+      "metaDescription": "OpenAI Integration for teams that need practical AI engineering, integrations, automation and production-ready implementation.",
+      "searchIntent": "Companies looking for OpenAI Integration with commercial implementation intent."
+    },
+    "anthropic-integration": {
+      "title": "Anthropic Integration",
+      "shortTitle": "Anthropic Integration",
+      "metaTitle": "Anthropic Integration | Vosquery Lab",
+      "metaDescription": "Anthropic Integration for teams that need practical AI engineering, integrations, automation and production-ready implementation.",
+      "searchIntent": "Companies looking for Anthropic Integration with commercial implementation intent."
+    },
+    "google-gemini-integration": {
+      "title": "Google Gemini Integration",
+      "shortTitle": "Google Gemini Integration",
+      "metaTitle": "Google Gemini Integration | Vosquery Lab",
+      "metaDescription": "Google Gemini Integration for teams that need practical AI engineering, integrations, automation and production-ready implementation.",
+      "searchIntent": "Companies looking for Google Gemini Integration with commercial implementation intent."
+    },
+    "ai-chatbots": {
+      "title": "AI Chatbots",
+      "shortTitle": "AI Chatbots",
+      "metaTitle": "AI Chatbots | Vosquery Lab",
+      "metaDescription": "AI Chatbots for teams that need practical AI engineering, integrations, automation and production-ready implementation.",
+      "searchIntent": "Companies looking for AI Chatbots with commercial implementation intent."
+    },
+    "ai-voice-assistants": {
+      "title": "AI Voice Assistants",
+      "shortTitle": "AI Voice Assistants",
+      "metaTitle": "AI Voice Assistants | Vosquery Lab",
+      "metaDescription": "AI Voice Assistants for teams that need practical AI engineering, integrations, automation and production-ready implementation.",
+      "searchIntent": "Companies looking for AI Voice Assistants with commercial implementation intent."
+    },
+    "rag-development": {
+      "title": "RAG Development",
+      "shortTitle": "RAG Development",
+      "metaTitle": "RAG Development | Vosquery Lab",
+      "metaDescription": "RAG Development for teams that need practical AI engineering, integrations, automation and production-ready implementation.",
+      "searchIntent": "Companies looking for RAG Development with commercial implementation intent."
+    },
+    "vector-databases": {
+      "title": "Vector Databases",
+      "shortTitle": "Vector Databases",
+      "metaTitle": "Vector Databases | Vosquery Lab",
+      "metaDescription": "Vector Databases for teams that need practical AI engineering, integrations, automation and production-ready implementation.",
+      "searchIntent": "Companies looking for Vector Databases with commercial implementation intent."
+    },
+    "mcp-integrations": {
+      "title": "MCP Integrations",
+      "shortTitle": "MCP Integrations",
+      "metaTitle": "MCP Integrations | Vosquery Lab",
+      "metaDescription": "MCP Integrations for teams that need practical AI engineering, integrations, automation and production-ready implementation.",
+      "searchIntent": "Companies looking for MCP Integrations with commercial implementation intent."
+    },
+    "ai-workflow-automation": {
+      "title": "AI Workflow Automation",
+      "shortTitle": "AI Workflow Automation",
+      "metaTitle": "AI Workflow Automation | Vosquery Lab",
+      "metaDescription": "AI Workflow Automation for teams that need practical AI engineering, integrations, automation and production-ready implementation.",
+      "searchIntent": "Companies looking for AI Workflow Automation with commercial implementation intent."
+    },
+    "ai-consulting": {
+      "title": "AI Consulting",
+      "shortTitle": "AI Consulting",
+      "metaTitle": "AI Consulting | Vosquery Lab",
+      "metaDescription": "AI Consulting for teams that need practical AI engineering, integrations, automation and production-ready implementation.",
+      "searchIntent": "Companies looking for AI Consulting with commercial implementation intent."
+    },
+    "react-ai-applications": {
+      "title": "React AI Applications",
+      "shortTitle": "React AI Applications",
+      "metaTitle": "React AI Applications | Vosquery Lab",
+      "metaDescription": "React AI Applications for teams that need practical AI engineering, integrations, automation and production-ready implementation.",
+      "searchIntent": "Companies looking for React AI Applications with commercial implementation intent."
+    },
+    "react-native-ai-apps": {
+      "title": "React Native AI Apps",
+      "shortTitle": "React Native AI Apps",
+      "metaTitle": "React Native AI Apps | Vosquery Lab",
+      "metaDescription": "React Native AI Apps for teams that need practical AI engineering, integrations, automation and production-ready implementation.",
+      "searchIntent": "Companies looking for React Native AI Apps with commercial implementation intent."
+    },
+    "backend-ai-systems": {
+      "title": "Backend AI Systems",
+      "shortTitle": "Backend AI Systems",
+      "metaTitle": "Backend AI Systems | Vosquery Lab",
+      "metaDescription": "Backend AI Systems for teams that need practical AI engineering, integrations, automation and production-ready implementation.",
+      "searchIntent": "Companies looking for Backend AI Systems with commercial implementation intent."
+    },
+    "document-ai": {
+      "title": "Document AI",
+      "shortTitle": "Document AI",
+      "metaTitle": "Document AI | Vosquery Lab",
+      "metaDescription": "Document AI for teams that need practical AI engineering, integrations, automation and production-ready implementation.",
+      "searchIntent": "Companies looking for Document AI with commercial implementation intent."
+    },
+    "knowledge-base-ai": {
+      "title": "Knowledge Base AI",
+      "shortTitle": "Knowledge Base AI",
+      "metaTitle": "Knowledge Base AI | Vosquery Lab",
+      "metaDescription": "Knowledge Base AI for teams that need practical AI engineering, integrations, automation and production-ready implementation.",
+      "searchIntent": "Companies looking for Knowledge Base AI with commercial implementation intent."
+    },
+    "enterprise-ai": {
+      "title": "Enterprise AI",
+      "shortTitle": "Enterprise AI",
+      "metaTitle": "Enterprise AI | Vosquery Lab",
+      "metaDescription": "Enterprise AI for teams that need practical AI engineering, integrations, automation and production-ready implementation.",
+      "searchIntent": "Companies looking for Enterprise AI with commercial implementation intent."
+    }
+  },
+  "detail": {
+    "eyebrow": "AI service",
+    "whoNeedsIt": "Who needs it",
+    "problemsSolved": "Business problems solved",
+    "benefits": "Benefits",
+    "technologies": "Technology stack",
+    "process": "Implementation process",
+    "timeline": "Typical timeline",
+    "ctaTitle": "Plan an AI implementation",
+    "ctaText": "Share the workflow, product feature or automation you want to build. We will help define the architecture and next implementation step.",
+    "summarySuffix": "This page explains who needs it, what problems it solves, how Vosquery Lab implements it and what timeline to expect."
+  }
+}

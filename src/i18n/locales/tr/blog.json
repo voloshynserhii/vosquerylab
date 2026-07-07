@@ -1,0 +1,35 @@
+{
+  "page": {
+    "eyebrow": "AI ENGINEERING BLOG",
+    "title": "AI Engineering Blog",
+    "subtitle": "RAG, AI agents, MCP, vector databases, function calling, workflow automation ve LLM uygulamalarının production yazılımında nasıl çalıştığını anlatan pratik içerikler.",
+    "badges": [
+      "RAG",
+      "AI agents",
+      "MCP",
+      "Vektör veritabanları",
+      "Function calling",
+      "Süreç otomasyonu"
+    ],
+    "featuredEyebrow": "Öne çıkan rehber",
+    "featuredCta": "Öne çıkan rehberi oku",
+    "filters": [
+      "Tümü",
+      "RAG",
+      "Agents",
+      "MCP",
+      "Otomasyon",
+      "Entegrasyonlar"
+    ],
+    "ctaTitle": "Ürününüzde AI uygulamak için yardıma mı ihtiyacınız var?",
+    "primaryCta": "AI projesini konuşalım",
+    "secondaryCta": "Örnek çalışmaları gör",
+    "minRead": "dk okuma"
+  },
+  "detail": {
+    "eyebrow": "AI engineering rehberi",
+    "searchIntent": "Arama niyeti",
+    "ctaTitle": "Bunu uygulamak ister misiniz?",
+    "ctaText": "Vosquery Lab bu konsepti çalışan bir AI ürünü, workflow veya entegrasyona dönüştürmenize yardımcı olabilir."
+  }
+}

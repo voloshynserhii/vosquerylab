@@ -1,38 +1,6 @@
-import Header from "@/components/Header";
-import Hero from "@/containers/Hero";
-import Services from "@/containers/Services";
-import Clients from "@/containers/Clients";
-import Contact from "@/containers/Contact";
-import Footer from "@/components/Footer";
-import HomeSeoContent from "@/containers/HomeSeoContent";
-import type { Metadata } from "next";
+import { redirect } from "next/navigation";
+import { localizePath } from "@i18n/config";
 
-export const metadata: Metadata = {
-  title: "AI Engineering and AI Automation Studio",
-  description:
-    "Vosquery Lab builds AI agents, LLM applications, RAG systems, MCP integrations, workflow automation and custom AI software for B2B teams.",
-  alternates: { canonical: "/" },
-  openGraph: {
-    title: "Vosquery Lab - AI Engineering and Automation Studio",
-    description:
-      "AI agents, LLM applications, RAG systems, MCP integrations and custom AI automation for B2B products and operations.",
-    url: "/",
-    type: "website",
-  },
-};
-
-export default function Home() {
-  return (
-    <div className="min-h-screen bg-slate-50 font-sans text-slate-950 selection:bg-violet-200">
-      <Header />
-      <main className="flex flex-col">
-        <Hero />
-        <Services />
-        <HomeSeoContent />
-        <Clients />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
-  );
+export default function RootPage() {
+  redirect(localizePath("en"));
 }

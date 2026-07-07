@@ -1,0 +1,19 @@
+{
+  "brand": "VosQuery Lab",
+  "home": "Strona główna",
+  "featured": "Wyróżnione",
+  "summary": "Podsumowanie",
+  "faq": "Najczęstsze pytania",
+  "relatedServices": "Powiązane usługi",
+  "relatedCaseStudies": "Powiązane case studies",
+  "learnMore": "Dowiedz się więcej",
+  "readGuide": "Czytaj poradnik",
+  "viewCaseStudy": "Zobacz studium",
+  "learnAboutService": "Poznaj usługę",
+  "serviceVisualAlt": "Wizualizacja usługi {title}",
+  "projectPreviewAlt": "Podgląd projektu {title}",
+  "notFound": {
+    "title": "Nie znaleziono strony",
+    "description": "Strona, której szukasz, nie istnieje."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "page": {
+    "eyebrow": "BLOG AI ENGINEERING",
+    "title": "Blog AI Engineering",
+    "subtitle": "Praktyczne materiały o RAG, AI agents, MCP, vector databases, function calling, workflow automation i aplikacjach LLM w produkcyjnym oprogramowaniu.",
+    "badges": [
+      "RAG",
+      "AI agents",
+      "MCP",
+      "Bazy wektorowe",
+      "Function calling",
+      "Automatyzacja procesów"
+    ],
+    "featuredEyebrow": "Wyróżniony poradnik",
+    "featuredCta": "Czytaj wyróżniony poradnik",
+    "filters": [
+      "Wszystko",
+      "RAG",
+      "Agenci",
+      "MCP",
+      "Automatyzacja",
+      "Integracje"
+    ],
+    "ctaTitle": "Potrzebujesz pomocy z AI w produkcie?",
+    "primaryCta": "Omów projekt AI",
+    "secondaryCta": "Zobacz case studies",
+    "minRead": "min czytania"
+  },
+  "detail": {
+    "eyebrow": "Poradnik AI engineering",
+    "searchIntent": "Intencja wyszukiwania",
+    "ctaTitle": "Chcesz to wdrożyć?",
+    "ctaText": "Vosquery Lab może pomóc zamienić tę koncepcję w działający produkt AI, workflow albo integrację."
+  }
+}

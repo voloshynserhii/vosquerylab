@@ -1,0 +1,217 @@
+{
+  "hero": {
+    "eyebrow": "Usługi AI Engineering",
+    "titleBefore": "AI engineering i automatyzacja dla",
+    "titleHighlight": "produktów B2B",
+    "description": "Vosquery Lab projektuje i buduje AI agents, aplikacje LLM, systemy RAG, integracje MCP oraz dedykowaną automatyzację AI dla firm, które potrzebują produkcyjnego oprogramowania AI.",
+    "primaryCta": "Omów projekt AI",
+    "secondaryCta": "Zobacz usługi",
+    "features": [
+      "Rozwiązania AI gotowe do produkcji",
+      "Rozwój end-to-end",
+      "Nowoczesny stack i dobre praktyki",
+      "Skalowalne i bezpieczne"
+    ],
+    "partnersLabel": "Technologie i partnerzy",
+    "partners": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "LangChain",
+      "Next.js",
+      "React",
+      "PostgreSQL",
+      "Docker",
+      "AWS"
+    ],
+    "illustrationLabels": [
+      "Aplikacje LLM",
+      "Systemy RAG",
+      "AI agents",
+      "Integracje MCP",
+      "Automatyzacja AI"
+    ]
+  },
+  "services": {
+    "eyebrow": "Co robimy",
+    "title": "Usługi AI",
+    "items": [
+      {
+        "title": "AI Engineering",
+        "href": "/services/ai-engineering",
+        "description": "Produkcyjne aplikacje LLM, AI agents, systemy RAG i backendowe procesy AI projektowane wokół realnych ograniczeń biznesowych."
+      },
+      {
+        "title": "Automatyzacja AI",
+        "href": "/services/ai-workflow-automation",
+        "description": "Automatyzacja procesów, która łączy modele AI z API, dokumentami, CRM, support tools i wewnętrznymi systemami biznesowymi."
+      },
+      {
+        "title": "Produkty React AI",
+        "href": "/services/react-ai-applications",
+        "description": "Produkty web i mobile oparte na AI, budowane w Next.js, React i React Native: chat, voice, dokumenty oraz dashboardy."
+      }
+    ]
+  },
+  "seo": {
+    "eyebrow": "studio AI engineering",
+    "title": "Praktyczne systemy AI dla realnych procesów biznesowych",
+    "description": "Vosquery Lab pomaga firmom przejść od eksperymentów AI do użytecznego oprogramowania. Skupiamy się na procesach biznesowych, zachowaniu modeli, dostępie do danych, integracjach, UX i utrzymywalnej architekturze.",
+    "primaryCta": "Poznaj usługi AI",
+    "secondaryCta": "Zobacz case studies",
+    "facts": [
+      {
+        "title": "Kim jest Vosquery Lab",
+        "text": "Vosquery Lab to studio AI Engineering i automatyzacji AI w Hiszpanii. Budujemy AI agents, aplikacje LLM, systemy RAG, integracje MCP i dedykowane oprogramowanie AI dla startupów oraz zespołów B2B."
+      },
+      {
+        "title": "Idealni klienci",
+        "text": "Najlepiej współpracujemy z founderami, zespołami produktowymi i operacyjnymi, które potrzebują praktycznych funkcji AI, AI MVP, automatyzacji wewnętrznej, AI dla baz wiedzy albo integracji z istniejącym oprogramowaniem."
+      },
+      {
+        "title": "Podejście do realizacji",
+        "text": "Projekty zaczynamy od discovery, mapowania procesów i architektury. Następnie skupiamy się na prototypach, kodzie produkcyjnym, integracjach, testach, wdrożeniu i iteracji na podstawie realnego feedbacku."
+      },
+      {
+        "title": "Stack technologiczny",
+        "text": "Stack obejmuje OpenAI, Anthropic Claude, Google Gemini, Next.js, React, React Native, Node.js, bazy wektorowe, RAG pipelines, integracje API i Model Context Protocol."
+      }
+    ]
+  },
+  "clients": {
+    "eyebrow": "Wybrane prace",
+    "title": "Produkty AI i projekty klientów",
+    "viewAll": "Wszystkie projekty",
+    "ctaTitle": "Gotowi zbudować kolejny produkt AI?",
+    "ctaText": "Zamienimy pomysł w produkcyjne rozwiązanie AI, które daje realną wartość biznesową.",
+    "primaryCta": "Omów projekt AI",
+    "secondaryCta": "Kontakt",
+    "items": [
+      {
+        "id": "navifit",
+        "name": "NaviFit",
+        "category": "Aplikacja web i mobile",
+        "description": "Kompleksowa platforma fitness z personalizowanymi planami posiłków i śledzeniem odżywiania, zbudowana na nowoczesnym web stack dla płynnego doświadczenia użytkownika.",
+        "image": "https://navifit.eu/images/app-preview.png",
+        "tags": [
+          "Next.js",
+          "React Native",
+          "Fitness",
+          "Zdrowie",
+          "PWA"
+        ],
+        "link": "https://navifit.eu"
+      },
+      {
+        "id": "pani-yulya-kids",
+        "name": "Pani Yulya Kids",
+        "category": "E-commerce",
+        "description": "Radosna platforma rozrywkowa, na której fani Pani Yulya słuchają ekskluzywnej muzyki, zamawiają personalizowane wideożyczenia i kupują zabawki z filmów YouTube.",
+        "image": "https://pani-yulya-shop.vercel.app/_next/image?url=%2Fimages%2Fhero_image.jpeg&w=1200&q=75",
+        "tags": [
+          "E-commerce",
+          "Next.js",
+          "UI/UX",
+          "Dzieci",
+          "Muzyka"
+        ],
+        "link": "https://pani-yulya.kids"
+      },
+      {
+        "id": "pine-hotel",
+        "name": "A Hotel in the Mountains",
+        "category": "Hotelarstwo",
+        "description": "Strona dla hotel experience z nowoczesnymi udogodnieniami, spersonalizowaną obsługą, mocną prezentacją lokalizacji i naciskiem na zadowolenie gości.",
+        "image": "https://pinehotel.vercel.app/_next/image?url=%2Fimages%2Fhero2.jpg&w=3840&q=75",
+        "tags": [
+          "Next.js",
+          "React",
+          "Hotel",
+          "Hospitality",
+          "Travel"
+        ],
+        "link": "https://pinehotel.vercel.app"
+      },
+      {
+        "id": "castellon-cycling-tours",
+        "name": "Cycling Tours",
+        "category": "Fitness i zdrowie",
+        "description": "Firma organizująca wycieczki rowerowe oraz oferująca zakwaterowanie we własnym hotelu na wsi.",
+        "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=2070",
+        "tags": [
+          "Next.js",
+          "React",
+          "Rowery",
+          "Podróże",
+          "Turystyka"
+        ],
+        "link": "https://tours-ecru-seven.vercel.app/"
+      }
+    ],
+    "mobileApps": [
+      {
+        "id": "taluna-stories",
+        "name": "Taluna Stories",
+        "category": "Mobilna aplikacja AI storytelling",
+        "description": "Magiczny kreator historii, w którym rodziny wybierają dziecko, towarzysza i świat, aby tworzyć personalizowane przygody.",
+        "image": "/assets/clients/taluna.jpeg",
+        "tags": [
+          "React Native",
+          "AI",
+          "Dzieci",
+          "Subskrypcje"
+        ],
+        "link": "https://apps.apple.com/app/taluna-bedtime-magic/id6770110481?l=en-GB"
+      },
+      {
+        "id": "epik-childhood-book",
+        "name": "Childhood Book",
+        "category": "Mobilna aplikacja wspomnień rodzinnych",
+        "description": "Ciepły memory journal, który zamienia zapisane rodzinne chwile, highlights i milestones w podgląd książki dzieciństwa.",
+        "image": "/assets/clients/memory-box.jpeg",
+        "tags": [
+          "Mobile UX",
+          "Wspomnienia",
+          "Rodzina",
+          "Book builder"
+        ],
+        "link": "#"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Gotowi zbudować coś wartościowego?",
+    "description": "Porozmawiajmy o projekcie i o tym, jak możemy pomóc w AI engineering.",
+    "details": [
+      {
+        "title": "Napisz do nas",
+        "value": "vosquery@gmail.com",
+        "href": "mailto:hello@vosquery.lab"
+      },
+      {
+        "title": "Odwiedź nas",
+        "value": "Carrer Apostol Santiago, 36\n12560 Benicassim, Community of Valencia, Spain"
+      },
+      {
+        "title": "Zadzwoń",
+        "value": "+34 614 026 351",
+        "href": "tel:+34614026351"
+      }
+    ],
+    "form": {
+      "name": "Imię",
+      "phone": "Telefon",
+      "email": "Email",
+      "message": "Wiadomość",
+      "namePlaceholder": "Jan Kowalski",
+      "phonePlaceholder": "+48 600 000 000",
+      "emailPlaceholder": "jan@example.com",
+      "messagePlaceholder": "Opowiedz nam o projekcie...",
+      "submit": "Wyślij zapytanie",
+      "submitting": "Wysyłanie...",
+      "success": "Wiadomość wysłana!",
+      "error": "Nie udało się wysłać wiadomości. Spróbuj ponownie."
+    }
+  }
+}

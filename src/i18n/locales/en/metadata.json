@@ -1,0 +1,46 @@
+{
+  "site": {
+    "title": "Vosquery Lab - AI Engineering and AI Automation Studio",
+    "description": "Vosquery Lab is an AI engineering and automation studio building AI agents, LLM applications, RAG systems, AI integrations, MCP integrations and custom AI software.",
+    "keywords": ["AI engineering", "AI agents", "AI automation", "LLM applications", "RAG development", "MCP integrations", "OpenAI integration", "custom AI software", "AI consulting", "React AI applications"],
+    "knowsAbout": ["AI Engineering", "AI Agents", "LLM Applications", "RAG Systems", "MCP Integrations", "AI Automation", "React", "React Native", "Next.js"]
+  },
+  "pages": {
+    "home": {
+      "title": "AI Engineering and AI Automation Studio",
+      "description": "Vosquery Lab builds AI agents, LLM applications, RAG systems, MCP integrations, workflow automation and custom AI software for B2B teams.",
+      "keywords": ["AI engineering studio", "AI automation studio", "AI agents for business", "RAG development", "LLM app development"],
+      "openGraphTitle": "Vosquery Lab - AI Engineering and Automation Studio",
+      "openGraphDescription": "AI agents, LLM applications, RAG systems, MCP integrations and custom AI automation for B2B products and operations.",
+      "twitterTitle": "AI Engineering and Automation Studio",
+      "twitterDescription": "Production-ready AI agents, LLM apps, RAG systems and AI automation for B2B teams."
+    },
+    "services": {
+      "title": "AI Engineering Services",
+      "description": "AI engineering services from Vosquery Lab: AI agents, RAG development, LLM integrations, MCP integrations, AI automation and custom AI software.",
+      "keywords": ["AI engineering services", "AI agent development", "RAG development services", "LLM integration services", "AI automation services"],
+      "openGraphTitle": "AI Engineering Services | Vosquery Lab",
+      "openGraphDescription": "Explore AI agents, RAG systems, LLM integrations, MCP integrations, automation and custom AI product development.",
+      "twitterTitle": "AI Engineering Services",
+      "twitterDescription": "AI agents, RAG, LLM integrations, MCP and automation services for product teams."
+    },
+    "blog": {
+      "title": "AI Engineering Blog",
+      "description": "Technical articles about RAG, AI agents, MCP, LLM integrations, vector databases, AI automation and building AI products.",
+      "keywords": ["AI engineering blog", "RAG guides", "AI agents guide", "MCP explained", "LLM integration guide"],
+      "openGraphTitle": "AI Engineering Blog | Vosquery Lab",
+      "openGraphDescription": "Educational and commercial AI engineering guides for product teams, founders and operations teams.",
+      "twitterTitle": "AI Engineering Blog",
+      "twitterDescription": "Practical AI engineering guides for product and automation teams."
+    },
+    "caseStudies": {
+      "title": "AI Case Studies",
+      "description": "Case studies from Vosquery Lab covering AI story generation, React AI applications, custom AI integrations, document AI and workflow automation.",
+      "keywords": ["AI case studies", "AI product case study", "React AI app case study", "AI automation examples", "LLM integration case study"],
+      "openGraphTitle": "AI Case Studies | Vosquery Lab",
+      "openGraphDescription": "Explore AI product, integration, automation and React AI application case studies.",
+      "twitterTitle": "AI Case Studies",
+      "twitterDescription": "AI product, automation, document AI and React AI application case studies."
+    }
+  }
+}

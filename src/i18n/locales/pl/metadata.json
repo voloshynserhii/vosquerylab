@@ -1,0 +1,100 @@
+{
+  "site": {
+    "title": "Vosquery Lab - usługi AI Engineering i automatyzacja AI",
+    "description": "Vosquery Lab świadczy usługi AI Engineering: AI agents, aplikacje LLM, systemy RAG, integracje MCP, automatyzacja procesów i dedykowane oprogramowanie AI.",
+    "keywords": [
+      "usługi AI Engineering",
+      "tworzenie AI agentów",
+      "automatyzacja AI",
+      "RAG development",
+      "integracja LLM",
+      "integracje MCP",
+      "integracja OpenAI",
+      "konsulting AI"
+    ],
+    "knowsAbout": [
+      "AI Engineering",
+      "AI Agents",
+      "LLM",
+      "RAG",
+      "MCP",
+      "AI Automation",
+      "React",
+      "Next.js"
+    ]
+  },
+  "pages": {
+    "home": {
+      "title": "Vosquery Lab - usługi AI Engineering i automatyzacja AI",
+      "description": "Vosquery Lab świadczy usługi AI Engineering: AI agents, aplikacje LLM, systemy RAG, integracje MCP, automatyzacja procesów i dedykowane oprogramowanie AI.",
+      "keywords": [
+        "usługi AI Engineering",
+        "tworzenie AI agentów",
+        "automatyzacja AI",
+        "RAG development",
+        "integracja LLM",
+        "integracje MCP",
+        "integracja OpenAI",
+        "konsulting AI"
+      ],
+      "openGraphTitle": "Vosquery Lab - usługi AI Engineering i automatyzacja AI | Vosquery Lab",
+      "openGraphDescription": "Vosquery Lab świadczy usługi AI Engineering: AI agents, aplikacje LLM, systemy RAG, integracje MCP, automatyzacja procesów i dedykowane oprogramowanie AI.",
+      "twitterTitle": "Vosquery Lab - usługi AI Engineering i automatyzacja AI",
+      "twitterDescription": "Vosquery Lab świadczy usługi AI Engineering: AI agents, aplikacje LLM, systemy RAG, integracje MCP, automatyzacja procesów i dedykowane oprogramowanie AI."
+    },
+    "services": {
+      "title": "Usługi AI Engineering",
+      "description": "Usługi AI Engineering od Vosquery Lab: AI agents, RAG, integracje LLM, MCP, automatyzacja i dedykowane oprogramowanie AI dla firm B2B.",
+      "keywords": [
+        "usługi AI Engineering",
+        "tworzenie AI agentów",
+        "automatyzacja AI",
+        "RAG development",
+        "integracja LLM",
+        "integracje MCP",
+        "integracja OpenAI",
+        "konsulting AI"
+      ],
+      "openGraphTitle": "Usługi AI Engineering | Vosquery Lab",
+      "openGraphDescription": "Usługi AI Engineering od Vosquery Lab: AI agents, RAG, integracje LLM, MCP, automatyzacja i dedykowane oprogramowanie AI dla firm B2B.",
+      "twitterTitle": "Usługi AI Engineering",
+      "twitterDescription": "Usługi AI Engineering od Vosquery Lab: AI agents, RAG, integracje LLM, MCP, automatyzacja i dedykowane oprogramowanie AI dla firm B2B."
+    },
+    "blog": {
+      "title": "Blog AI Engineering",
+      "description": "Blog AI Engineering: praktyczne poradniki o RAG, AI agents, MCP, integracjach LLM i automatyzacji AI dla zespołów produktowych.",
+      "keywords": [
+        "usługi AI Engineering",
+        "tworzenie AI agentów",
+        "automatyzacja AI",
+        "RAG development",
+        "integracja LLM",
+        "integracje MCP",
+        "integracja OpenAI",
+        "konsulting AI"
+      ],
+      "openGraphTitle": "Blog AI Engineering | Vosquery Lab",
+      "openGraphDescription": "Blog AI Engineering: praktyczne poradniki o RAG, AI agents, MCP, integracjach LLM i automatyzacji AI dla zespołów produktowych.",
+      "twitterTitle": "Blog AI Engineering",
+      "twitterDescription": "Blog AI Engineering: praktyczne poradniki o RAG, AI agents, MCP, integracjach LLM i automatyzacji AI dla zespołów produktowych."
+    },
+    "caseStudies": {
+      "title": "Case studies AI",
+      "description": "Case studies AI od Vosquery Lab: produkty AI, integracje, React AI apps, Document AI i automatyzacja workflow.",
+      "keywords": [
+        "usługi AI Engineering",
+        "tworzenie AI agentów",
+        "automatyzacja AI",
+        "RAG development",
+        "integracja LLM",
+        "integracje MCP",
+        "integracja OpenAI",
+        "konsulting AI"
+      ],
+      "openGraphTitle": "Case studies AI | Vosquery Lab",
+      "openGraphDescription": "Case studies AI od Vosquery Lab: produkty AI, integracje, React AI apps, Document AI i automatyzacja workflow.",
+      "twitterTitle": "Case studies AI",
+      "twitterDescription": "Case studies AI od Vosquery Lab: produkty AI, integracje, React AI apps, Document AI i automatyzacja workflow."
+    }
+  }
+}

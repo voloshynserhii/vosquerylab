@@ -1,0 +1,100 @@
+{
+  "site": {
+    "title": "Vosquery Lab - Yapay Zeka Çözümleri ve AI Otomasyonu",
+    "description": "Vosquery Lab, AI agents, LLM uygulamaları, RAG sistemleri, MCP entegrasyonları, iş akışı otomasyonu ve özel yapay zeka yazılımları geliştirir.",
+    "keywords": [
+      "yapay zeka çözümleri",
+      "AI agent geliştirme",
+      "AI otomasyonu",
+      "RAG geliştirme",
+      "LLM entegrasyonu",
+      "MCP entegrasyonları",
+      "OpenAI entegrasyonu",
+      "AI danışmanlığı"
+    ],
+    "knowsAbout": [
+      "AI Engineering",
+      "AI Agents",
+      "LLM",
+      "RAG",
+      "MCP",
+      "AI Automation",
+      "React",
+      "Next.js"
+    ]
+  },
+  "pages": {
+    "home": {
+      "title": "Vosquery Lab - Yapay Zeka Çözümleri ve AI Otomasyonu",
+      "description": "Vosquery Lab, AI agents, LLM uygulamaları, RAG sistemleri, MCP entegrasyonları, iş akışı otomasyonu ve özel yapay zeka yazılımları geliştirir.",
+      "keywords": [
+        "yapay zeka çözümleri",
+        "AI agent geliştirme",
+        "AI otomasyonu",
+        "RAG geliştirme",
+        "LLM entegrasyonu",
+        "MCP entegrasyonları",
+        "OpenAI entegrasyonu",
+        "AI danışmanlığı"
+      ],
+      "openGraphTitle": "Vosquery Lab - Yapay Zeka Çözümleri ve AI Otomasyonu | Vosquery Lab",
+      "openGraphDescription": "Vosquery Lab, AI agents, LLM uygulamaları, RAG sistemleri, MCP entegrasyonları, iş akışı otomasyonu ve özel yapay zeka yazılımları geliştirir.",
+      "twitterTitle": "Vosquery Lab - Yapay Zeka Çözümleri ve AI Otomasyonu",
+      "twitterDescription": "Vosquery Lab, AI agents, LLM uygulamaları, RAG sistemleri, MCP entegrasyonları, iş akışı otomasyonu ve özel yapay zeka yazılımları geliştirir."
+    },
+    "services": {
+      "title": "Yapay Zeka Çözümleri",
+      "description": "Vosquery Lab yapay zeka çözümleri: AI agents, RAG, LLM entegrasyonları, MCP, workflow automation ve B2B ekipler için özel AI yazılımı.",
+      "keywords": [
+        "yapay zeka çözümleri",
+        "AI agent geliştirme",
+        "AI otomasyonu",
+        "RAG geliştirme",
+        "LLM entegrasyonu",
+        "MCP entegrasyonları",
+        "OpenAI entegrasyonu",
+        "AI danışmanlığı"
+      ],
+      "openGraphTitle": "Yapay Zeka Çözümleri | Vosquery Lab",
+      "openGraphDescription": "Vosquery Lab yapay zeka çözümleri: AI agents, RAG, LLM entegrasyonları, MCP, workflow automation ve B2B ekipler için özel AI yazılımı.",
+      "twitterTitle": "Yapay Zeka Çözümleri",
+      "twitterDescription": "Vosquery Lab yapay zeka çözümleri: AI agents, RAG, LLM entegrasyonları, MCP, workflow automation ve B2B ekipler için özel AI yazılımı."
+    },
+    "blog": {
+      "title": "AI Engineering Blog",
+      "description": "AI Engineering Blog: RAG, AI agents, MCP, LLM entegrasyonları ve AI otomasyonu hakkında ürün ekipleri için pratik rehberler.",
+      "keywords": [
+        "yapay zeka çözümleri",
+        "AI agent geliştirme",
+        "AI otomasyonu",
+        "RAG geliştirme",
+        "LLM entegrasyonu",
+        "MCP entegrasyonları",
+        "OpenAI entegrasyonu",
+        "AI danışmanlığı"
+      ],
+      "openGraphTitle": "AI Engineering Blog | Vosquery Lab",
+      "openGraphDescription": "AI Engineering Blog: RAG, AI agents, MCP, LLM entegrasyonları ve AI otomasyonu hakkında ürün ekipleri için pratik rehberler.",
+      "twitterTitle": "AI Engineering Blog",
+      "twitterDescription": "AI Engineering Blog: RAG, AI agents, MCP, LLM entegrasyonları ve AI otomasyonu hakkında ürün ekipleri için pratik rehberler."
+    },
+    "caseStudies": {
+      "title": "AI örnek çalışmaları",
+      "description": "Vosquery Lab AI örnek çalışmaları: AI ürünleri, entegrasyonlar, React AI apps, Document AI ve workflow automation projeleri.",
+      "keywords": [
+        "yapay zeka çözümleri",
+        "AI agent geliştirme",
+        "AI otomasyonu",
+        "RAG geliştirme",
+        "LLM entegrasyonu",
+        "MCP entegrasyonları",
+        "OpenAI entegrasyonu",
+        "AI danışmanlığı"
+      ],
+      "openGraphTitle": "AI örnek çalışmaları | Vosquery Lab",
+      "openGraphDescription": "Vosquery Lab AI örnek çalışmaları: AI ürünleri, entegrasyonlar, React AI apps, Document AI ve workflow automation projeleri.",
+      "twitterTitle": "AI örnek çalışmaları",
+      "twitterDescription": "Vosquery Lab AI örnek çalışmaları: AI ürünleri, entegrasyonlar, React AI apps, Document AI ve workflow automation projeleri."
+    }
+  }
+}

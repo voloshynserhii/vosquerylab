@@ -10,12 +10,14 @@ export default function ServiceCard({
   description,
   icon: Icon,
   tone,
+  cta,
 }: {
   title: string;
   href: string;
   description: string;
   icon: LucideIcon;
   tone: "violet" | "indigo" | "blue";
+  cta: string;
 }) {
   const toneClass = {
     violet: "bg-violet-500/12 text-violet-600 shadow-[0_18px_45px_rgba(139,92,246,0.18)]",
@@ -42,7 +44,7 @@ export default function ServiceCard({
           colors.primaryDark,
         )}
       >
-        Learn more <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
+        {cta} <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
       </Link>
       <div className={cn("pointer-events-none absolute inset-x-8 bottom-0 h-16 opacity-70", gradients.primary, "blur-3xl")} />
     </GlassCard>

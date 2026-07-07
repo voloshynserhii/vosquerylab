@@ -1,0 +1,27 @@
+{
+  "page": {
+    "eyebrow": "CASE STUDIES",
+    "title": "AI Case Studies",
+    "subtitle": "Examples of AI products, React AI applications, mobile AI apps, document processing, integrations and workflow automation projects.",
+    "badges": [
+      "AI Products",
+      "React AI Apps",
+      "Workflow Automation",
+      "LLM Integrations",
+      "RAG Systems"
+    ],
+    "featuredEyebrow": "Featured",
+    "featuredCta": "View featured case study",
+    "ctaTitle": "Have an AI product idea?",
+    "primaryCta": "Discuss an AI Project",
+    "secondaryCta": "View AI Services"
+  },
+  "detail": {
+    "eyebrow": "Case study",
+    "problem": "Problem",
+    "solution": "Solution",
+    "architecture": "Architecture",
+    "technologies": "Technologies",
+    "results": "Results"
+  }
+}

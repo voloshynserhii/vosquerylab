@@ -1,0 +1,30 @@
+{
+  "page": {
+    "eyebrow": "STUDIA PRZYPADKÓW AI",
+    "title": "Studia przypadków AI",
+    "subtitle": "Przykłady produktów AI, aplikacji React AI, mobilnych AI apps, document processing, integracji i projektów workflow automation.",
+    "badges": [
+      "Produkty AI",
+      "Aplikacje React AI",
+      "Automatyzacja procesów",
+      "Integracje LLM",
+      "Systemy RAG"
+    ],
+    "featuredEyebrow": "Wyróżnione",
+    "featuredCta": "Zobacz wyróżnione studium",
+    "ctaTitle": "Masz pomysł na produkt AI?",
+    "primaryCta": "Omów projekt AI",
+    "secondaryCta": "Zobacz usługi AI",
+    "detail": {
+      "eyebrow": "Studium przypadku"
+    }
+  },
+  "detail": {
+    "eyebrow": "Studium przypadku",
+    "problem": "Problem",
+    "solution": "Rozwiązanie",
+    "architecture": "Architektura",
+    "technologies": "Technologie",
+    "results": "Rezultaty"
+  }
+}

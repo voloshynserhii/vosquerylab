@@ -1,0 +1,21 @@
+{
+  "rights": "Усі права захищено.",
+  "links": [
+    {
+      "href": "/services",
+      "label": "AI-послуги"
+    },
+    {
+      "href": "/blog",
+      "label": "Блог про AI-розробку"
+    },
+    {
+      "href": "/case-studies",
+      "label": "Кейси"
+    },
+    {
+      "href": "/#contact",
+      "label": "Контакти"
+    }
+  ]
+}

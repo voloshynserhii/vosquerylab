@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "href": "/services",
+      "label": "Usługi"
+    },
+    {
+      "href": "/case-studies",
+      "label": "Case studies"
+    },
+    {
+      "href": "/blog",
+      "label": "Blog"
+    },
+    {
+      "href": "/#contact",
+      "label": "O nas"
+    }
+  ],
+  "contact": "Kontakt",
+  "language": "Język"
+}

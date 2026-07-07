@@ -1,0 +1,19 @@
+{
+  "brand": "VosQuery Lab",
+  "home": "Ana sayfa",
+  "featured": "Öne çıkan",
+  "summary": "Özet",
+  "faq": "Sık sorulan sorular",
+  "relatedServices": "İlgili hizmetler",
+  "relatedCaseStudies": "İlgili örnek çalışmalar",
+  "learnMore": "Daha fazla bilgi",
+  "readGuide": "Rehberi oku",
+  "viewCaseStudy": "Çalışmayı gör",
+  "learnAboutService": "Hizmeti incele",
+  "serviceVisualAlt": "{title} hizmet görseli",
+  "projectPreviewAlt": "{title} proje önizlemesi",
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "description": "Aradığınız sayfa mevcut değil."
+  }
+}
