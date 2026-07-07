@@ -24,5 +24,5 @@ export const seoConfig = {
   siteLastUpdated: "2026-07-07",
   defaultOgImage: "/og/default-og.png",
   twitterCreator: "@vosquery",
+  sameAs: ["https://www.linkedin.com/company/vosquery-lab/"],
 } as const;
-

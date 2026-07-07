@@ -25,7 +25,7 @@ export function organizationJsonLd(locale: Locale): JsonLdNode {
       "@type": "Person",
       name: seoConfig.author,
     },
-    sameAs: [],
+    sameAs: seoConfig.sameAs,
     knowsAbout: dictionary.metadata.site.knowsAbout,
   };
 }
@@ -184,4 +184,3 @@ export function breadcrumbItems(locale: Locale, items: Array<{ name: string; pat
     path: item.path ? localizePath(locale, item.path) : localizePath(locale),
   }));
 }
-
