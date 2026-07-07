@@ -1,9 +1,6 @@
 import {
   blogArticles,
   caseStudies,
-  getArticle,
-  getCaseStudy,
-  getService,
   services,
   type BlogArticle,
   type CaseStudy,

@@ -11,7 +11,8 @@ import {
   RelatedLinkGrid,
   TextBlock,
 } from "@/components/ui/DetailPagePrimitives";
-import { absoluteUrl, breadcrumbJsonLd, faqJsonLd, siteName, truncateDescription } from "@/lib/seo";
+import { breadcrumbJsonLd, faqJsonLd, siteName, truncateDescription } from "@/lib/seo";
+import { blogPostingJsonLd } from "@seo/jsonLd";
 import { type Locale, localizePath, locales } from "@i18n/config";
 import { getDictionary } from "@i18n/dictionaries";
 import { getLocalizedArticle, getLocalizedArticles, getLocalizedCaseStudy, getLocalizedService } from "@i18n/content";
@@ -50,6 +51,8 @@ export async function generateMetadata({ params }: BlogArticlePageProps): Promis
       twitterTitle: article.metaTitle,
       twitterDescription: truncateDescription(article.metaDescription),
     },
+    publishedTime: article.publishedAt,
+    modifiedTime: article.updatedAt,
   });
 }
 
@@ -127,14 +130,7 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline: article.title,
-            description: article.metaDescription,
-            url: absoluteUrl(localizePath(locale, `/blog/${article.slug}`)),
-            author: { "@type": "Organization", name: siteName },
-            publisher: { "@id": absoluteUrl("/#organization") },
-            mainEntityOfPage: absoluteUrl(localizePath(locale, `/blog/${article.slug}`)),
+            ...blogPostingJsonLd(locale, article),
           }),
         }}
       />

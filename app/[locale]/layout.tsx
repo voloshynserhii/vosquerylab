@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { isLocale, locales, type Locale } from "@i18n/config";
+import { isLocale, locales } from "@i18n/config";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));

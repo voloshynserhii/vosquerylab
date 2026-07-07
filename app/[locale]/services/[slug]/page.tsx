@@ -14,13 +14,8 @@ import {
   TextBlock,
 } from "@/components/ui/DetailPagePrimitives";
 import TechChip from "@/components/ui/TechChip";
-import {
-  absoluteUrl,
-  breadcrumbJsonLd,
-  faqJsonLd,
-  siteName,
-  truncateDescription,
-} from "@/lib/seo";
+import { breadcrumbJsonLd, faqJsonLd, siteName, truncateDescription } from "@/lib/seo";
+import { serviceJsonLd } from "@seo/jsonLd";
 import { type Locale, localizePath, locales } from "@i18n/config";
 import { getDictionary } from "@i18n/dictionaries";
 import {
@@ -163,14 +158,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Service",
-            name: service.title,
-            url: absoluteUrl(localizePath(locale, `/services/${service.slug}`)),
-            description: service.metaDescription,
-            provider: { "@id": absoluteUrl("/#organization") },
-            serviceType: service.title,
-            areaServed: "Worldwide",
+            ...serviceJsonLd(locale, service),
           }),
         }}
       />

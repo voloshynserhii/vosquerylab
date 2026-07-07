@@ -9,7 +9,9 @@ import {
   TopicChip,
 } from "@/components/ui/ListingPagePrimitives";
 import Reveal from "@/components/ui/Reveal";
-import { absoluteUrl, breadcrumbJsonLd, siteName } from "@/lib/seo";
+import { breadcrumbJsonLd, siteName } from "@/lib/seo";
+import { collectionPageJsonLd, professionalServiceJsonLd } from "@seo/jsonLd";
+import { localizedUrl } from "@seo/hreflang";
 import { cn, colors, gradients, space } from "@theme/index";
 import { type Locale, localizePath } from "@i18n/config";
 import { getDictionary } from "@i18n/dictionaries";
@@ -173,19 +175,26 @@ export default async function ServicesPage({ params }: ServicesPageProps) {
         id="services-collection-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "CollectionPage",
-            name: page.title,
-            url: absoluteUrl(localizePath(locale, "/services")),
-            mainEntity: services.map((service) => ({
+          __html: JSON.stringify(
+            collectionPageJsonLd({
+              locale,
+              path: "/services",
+              name: page.title,
+              description: dictionary.metadata.pages.services.description,
+              mainEntity: services.map((service) => ({
               "@type": "Service",
               name: service.title,
-              url: absoluteUrl(localizePath(locale, `/services/${service.slug}`)),
+              url: localizedUrl(locale, `/services/${service.slug}`),
               description: service.metaDescription,
-            })),
-          }),
+              })),
+            }),
+          ),
         }}
+      />
+      <Script
+        id="professional-service-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(professionalServiceJsonLd(locale)) }}
       />
     </div>
   );

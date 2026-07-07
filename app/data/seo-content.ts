@@ -1,5 +1,6 @@
 export interface ServicePage {
   slug: string;
+  updatedAt: string;
   title: string;
   shortTitle: string;
   metaTitle: string;
@@ -19,6 +20,8 @@ export interface ServicePage {
 
 export interface BlogArticle {
   slug: string;
+  publishedAt: string;
+  updatedAt: string;
   title: string;
   metaTitle: string;
   metaDescription: string;
@@ -32,6 +35,8 @@ export interface BlogArticle {
 
 export interface CaseStudy {
   slug: string;
+  publishedAt: string;
+  updatedAt: string;
   title: string;
   metaTitle: string;
   metaDescription: string;
@@ -84,6 +89,7 @@ export const services: ServicePage[] = [
   ["enterprise-ai", "Enterprise AI", "Enterprise AI", "Enterprise AI Development Services", "Enterprise AI systems with security, governance, integrations, retrieval, monitoring and team workflows.", "Organizations implementing AI across departments."],
 ].map(([slug, title, shortTitle, metaTitle, metaDescription, searchIntent]) => ({
   slug,
+  updatedAt: "2026-07-07",
   title,
   shortTitle,
   metaTitle,
@@ -201,8 +207,10 @@ const extraArticleTitles = [
 ];
 
 export const blogArticles: BlogArticle[] = [
-  ...articleTopics.map(([slug, title, metaTitle, metaDescription, relatedServices]) => ({
+  ...articleTopics.map(([slug, title, metaTitle, metaDescription, relatedServices], index) => ({
     slug: slug as string,
+    publishedAt: `2026-01-${String((index % 28) + 1).padStart(2, "0")}`,
+    updatedAt: "2026-07-07",
     title: title as string,
     metaTitle: metaTitle as string,
     metaDescription: metaDescription as string,
@@ -241,10 +249,12 @@ export const blogArticles: BlogArticle[] = [
     relatedServices: relatedServices as string[],
     relatedCaseStudies: ["taluna", "custom-ai-integrations"],
   })),
-  ...extraArticleTitles.map((title) => {
+  ...extraArticleTitles.map((title, index) => {
     const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
     return {
       slug,
+      publishedAt: `2026-02-${String((index % 28) + 1).padStart(2, "0")}`,
+      updatedAt: "2026-07-07",
       title,
       metaTitle: `${title} | Vosquery Lab`,
       metaDescription: `${title}: practical guidance for AI engineering, LLM applications, AI automation and production implementation decisions.`,
@@ -285,6 +295,8 @@ export const blogArticles: BlogArticle[] = [
 export const caseStudies: CaseStudy[] = [
   {
     slug: "taluna",
+    publishedAt: "2026-03-01",
+    updatedAt: "2026-07-07",
     title: "Taluna AI Story Generator",
     metaTitle: "Taluna AI Story Generator Case Study",
     metaDescription: "AI storytelling mobile app case study covering product architecture, React Native, subscriptions and generative content workflows.",
@@ -297,6 +309,8 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: "ai-story-generator",
+    publishedAt: "2026-03-08",
+    updatedAt: "2026-07-07",
     title: "AI Story Generator",
     metaTitle: "AI Story Generator Case Study",
     metaDescription: "Case study for a generative AI content workflow with structured prompts, user inputs and product-ready output.",
@@ -309,6 +323,8 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: "family-historian",
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-07-07",
     title: "Family Historian",
     metaTitle: "Family Historian AI Case Study",
     metaDescription: "Family memory product case study covering structured memories, AI-assisted writing and book preview workflows.",
@@ -321,6 +337,8 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: "custom-ai-integrations",
+    publishedAt: "2026-03-22",
+    updatedAt: "2026-07-07",
     title: "Custom AI Integrations",
     metaTitle: "Custom AI Integrations Case Study",
     metaDescription: "Case study for integrating AI into existing software, APIs and business workflows.",
@@ -333,6 +351,8 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: "react-ai-applications",
+    publishedAt: "2026-03-29",
+    updatedAt: "2026-07-07",
     title: "React AI Applications",
     metaTitle: "React AI Applications Case Study",
     metaDescription: "Case study for user-facing React AI interfaces with streaming, chat, dashboards and AI workflows.",
@@ -345,6 +365,8 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: "ai-voice-systems",
+    publishedAt: "2026-04-05",
+    updatedAt: "2026-07-07",
     title: "AI Voice Systems",
     metaTitle: "AI Voice Systems Case Study",
     metaDescription: "AI voice systems case study for conversational interfaces, workflow capture and business automation.",
@@ -357,6 +379,8 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: "document-processing",
+    publishedAt: "2026-04-12",
+    updatedAt: "2026-07-07",
     title: "Document Processing",
     metaTitle: "Document AI Processing Case Study",
     metaDescription: "Document processing AI case study for extraction, classification, summarization and operational workflows.",
@@ -369,6 +393,8 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: "automation-projects",
+    publishedAt: "2026-04-19",
+    updatedAt: "2026-07-07",
     title: "Automation Projects",
     metaTitle: "AI Automation Projects Case Study",
     metaDescription: "AI automation case study for repetitive operations, notifications, workflow routing and integrations.",

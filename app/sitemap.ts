@@ -1,9 +1,9 @@
 import type { MetadataRoute } from "next";
 import { blogArticles, caseStudies, services } from "@/data/seo-content";
-import { absoluteUrl } from "@/lib/seo";
 import { locales, localizePath } from "@i18n/config";
-
-const staticRoutes = ["/", "/services", "/blog", "/case-studies"];
+import { absoluteUrl } from "@seo/canonical";
+import { seoConfig } from "@seo/config";
+import { staticSeoRoutes } from "@seo/routes";
 
 function alternates(path: string) {
   return {
@@ -14,33 +14,33 @@ function alternates(path: string) {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date();
+  const siteLastModified = new Date(seoConfig.siteLastUpdated);
 
   return locales.flatMap((locale) => [
-    ...staticRoutes.map((route) => ({
+    ...staticSeoRoutes.map((route) => ({
       url: absoluteUrl(localizePath(locale, route)),
-      lastModified,
+      lastModified: siteLastModified,
       changeFrequency: route === "/" ? ("weekly" as const) : ("monthly" as const),
       priority: route === "/" ? 1 : 0.9,
       alternates: alternates(route),
     })),
     ...services.map((service) => ({
       url: absoluteUrl(localizePath(locale, `/services/${service.slug}`)),
-      lastModified,
+      lastModified: new Date(service.updatedAt),
       changeFrequency: "monthly" as const,
       priority: 0.85,
       alternates: alternates(`/services/${service.slug}`),
     })),
     ...caseStudies.map((study) => ({
       url: absoluteUrl(localizePath(locale, `/case-studies/${study.slug}`)),
-      lastModified,
+      lastModified: new Date(study.updatedAt),
       changeFrequency: "monthly" as const,
       priority: 0.75,
       alternates: alternates(`/case-studies/${study.slug}`),
     })),
     ...blogArticles.map((article) => ({
       url: absoluteUrl(localizePath(locale, `/blog/${article.slug}`)),
-      lastModified,
+      lastModified: new Date(article.updatedAt),
       changeFrequency: "monthly" as const,
       priority: 0.7,
       alternates: alternates(`/blog/${article.slug}`),

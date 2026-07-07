@@ -8,7 +8,9 @@ import {
   SectionContainer,
 } from "@/components/ui/ListingPagePrimitives";
 import Reveal from "@/components/ui/Reveal";
-import { absoluteUrl, breadcrumbJsonLd, siteName } from "@/lib/seo";
+import { breadcrumbJsonLd, siteName } from "@/lib/seo";
+import { collectionPageJsonLd } from "@seo/jsonLd";
+import { localizedUrl } from "@seo/hreflang";
 import { cn, colors, gradients, space } from "@theme/index";
 import { type Locale, localizePath } from "@i18n/config";
 import { getDictionary } from "@i18n/dictionaries";
@@ -121,18 +123,21 @@ export default async function CaseStudiesPage({ params }: CaseStudiesPageProps) 
         id="case-studies-collection-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "CollectionPage",
-            name: page.title,
-            url: absoluteUrl(localizePath(locale, "/case-studies")),
-            mainEntity: caseStudies.map((study) => ({
+          __html: JSON.stringify(
+            collectionPageJsonLd({
+              locale,
+              path: "/case-studies",
+              name: page.title,
+              description: dictionary.metadata.pages.caseStudies.description,
+              mainEntity: caseStudies.map((study) => ({
               "@type": "CreativeWork",
               name: study.title,
-              url: absoluteUrl(localizePath(locale, `/case-studies/${study.slug}`)),
+              url: localizedUrl(locale, `/case-studies/${study.slug}`),
               description: study.metaDescription,
-            })),
-          }),
+              dateModified: study.updatedAt,
+              })),
+            }),
+          ),
         }}
       />
     </div>

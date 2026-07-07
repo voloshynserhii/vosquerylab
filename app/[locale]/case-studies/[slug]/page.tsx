@@ -11,7 +11,8 @@ import {
   TextBlock,
 } from "@/components/ui/DetailPagePrimitives";
 import TechChip from "@/components/ui/TechChip";
-import { absoluteUrl, breadcrumbJsonLd, siteName, truncateDescription } from "@/lib/seo";
+import { breadcrumbJsonLd, siteName, truncateDescription } from "@/lib/seo";
+import { caseStudyJsonLd, softwareApplicationJsonLd } from "@seo/jsonLd";
 import { type Locale, localizePath, locales } from "@i18n/config";
 import { getDictionary } from "@i18n/dictionaries";
 import { getLocalizedCaseStudies, getLocalizedCaseStudy, getLocalizedService } from "@i18n/content";
@@ -50,6 +51,8 @@ export async function generateMetadata({ params }: CaseStudyPageProps): Promise<
       twitterTitle: study.metaTitle,
       twitterDescription: truncateDescription(study.metaDescription),
     },
+    publishedTime: study.publishedAt,
+    modifiedTime: study.updatedAt,
   });
 }
 
@@ -64,6 +67,7 @@ export default async function CaseStudyDetailPage({ params }: CaseStudyPageProps
   const relatedServices = study.relatedServices
     .map((item) => getLocalizedService(locale, item))
     .filter((item): item is NonNullable<typeof item> => Boolean(item));
+  const softwareApplicationSchema = softwareApplicationJsonLd(locale, study);
 
   return (
     <div className="min-h-screen bg-[#030713]">
@@ -120,16 +124,17 @@ export default async function CaseStudyDetailPage({ params }: CaseStudyPageProps
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "CreativeWork",
-            name: study.title,
-            url: absoluteUrl(localizePath(locale, `/case-studies/${study.slug}`)),
-            description: study.metaDescription,
-            creator: { "@id": absoluteUrl("/#organization") },
-            about: study.technologies,
+            ...caseStudyJsonLd(locale, study),
           }),
         }}
       />
+      {softwareApplicationSchema && (
+        <Script
+          id="case-study-software-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareApplicationSchema) }}
+        />
+      )}
       <Script
         id="case-study-breadcrumb-schema"
         type="application/ld+json"

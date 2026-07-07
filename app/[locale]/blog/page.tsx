@@ -9,7 +9,9 @@ import {
   TopicChip,
 } from "@/components/ui/ListingPagePrimitives";
 import Reveal from "@/components/ui/Reveal";
-import { absoluteUrl, breadcrumbJsonLd, siteName } from "@/lib/seo";
+import { breadcrumbJsonLd, siteName } from "@/lib/seo";
+import { collectionPageJsonLd } from "@seo/jsonLd";
+import { localizedUrl } from "@seo/hreflang";
 import { cn, colors, gradients, space } from "@theme/index";
 import { type Locale, localizePath } from "@i18n/config";
 import { getDictionary } from "@i18n/dictionaries";
@@ -153,17 +155,20 @@ export default async function BlogPage({ params }: BlogPageProps) {
         id="blog-collection-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "CollectionPage",
-            name: page.title,
-            url: absoluteUrl(localizePath(locale, "/blog")),
-            mainEntity: blogArticles.map((article) => ({
+          __html: JSON.stringify(
+            collectionPageJsonLd({
+              locale,
+              path: "/blog",
+              name: page.title,
+              description: dictionary.metadata.pages.blog.description,
+              mainEntity: blogArticles.map((article) => ({
               "@type": "Article",
               headline: article.title,
-              url: absoluteUrl(localizePath(locale, `/blog/${article.slug}`)),
-            })),
-          }),
+              url: localizedUrl(locale, `/blog/${article.slug}`),
+              dateModified: article.updatedAt,
+              })),
+            }),
+          ),
         }}
       />
     </div>
